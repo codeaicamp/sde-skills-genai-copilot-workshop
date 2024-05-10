@@ -1,0 +1,3 @@
+- Bring a laptop or pair with someone to participate in hands-on labs
+- Ensure Web Access to ChatGPT & Gemini to learn tips and tricks to effectively translate requirements in natural language to code & fully functional tools
+- Setup VS Code IDE (https://code.visualstudio.com/) with these 2 IDE extensions installed: 1. SourceGraph Cody (https://sourcegraph.com/cody) & 2. Codium (https://www.codium.ai/install/vs-code/) 
