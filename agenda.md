@@ -1,0 +1,15 @@
+- Quick Quiz (5 minutes)
+- Intro to Gen AI capabilities, pitfalls, tricks to overcome pitfalls through Demos (10 minutes)
+  - Filling the blanks
+  - AI fudges facts
+  - Gold in gold out, garbage in garbage out
+  - the feedback loop
+- Intro to Code Generation with Gen AI through Demos (15 minutes)
+- Pair Programming with AI Chatbots - ChatGPT & Gemini (30 minutes)
+- Pair Programming with AI Coding Assistants (30 minutes)
+  - How to quickly onboard to a new code base
+  - Fixing bugs in existing code base
+  - Refactoring code
+  - Auto gen tests
+  - Auto gen documentation
+- Questions (30 minutes)
