@@ -1,0 +1,624 @@
+<!DOCTYPE html>
+<!-- saved from url=(0016)http://localhost -->
+<html>
+  <head>
+    <meta charset="utf-8"/>
+    <meta content="IE=edge" http-equiv="X-UA-Compatible"/>
+    <title>Generative AI in a Nutshell - How to Survive and Thrive</title>
+    <style>
+        body{
+            margin: 0;
+        }
+        #content-info{
+            width: auto;
+            margin: 0 auto;
+            text-align: center;
+        }
+        #author-info{
+            white-space: nowrap;
+            text-overflow: ellipsis;
+            overflow: hidden;
+        }
+        #title{
+            text-overflow: ellipsis;
+            white-space: nowrap;
+            overflow: hidden;
+            padding-top: 10px;
+            margin-bottom: 2px;
+            font-size: 34px;
+            color: #505050;
+        }
+        .text{
+            white-space:nowrap;
+            text-overflow: ellipsis;
+            display: inline-block;
+            margin-right: 20px;
+            margin-bottom: 2px;
+            font-size: 20px;
+            color: #8c8c8c;
+        }
+        #navBar{
+            width: auto;
+            height: auto;
+            position: fixed;
+            right:0;
+            bottom: 0;
+            background-color: #f0f3f4;
+            overflow-y: auto;
+            text-align: center;
+        }
+        #svg-container{
+            width: 100%;
+            overflow-x: scroll;
+            min-width: 0px;
+            margin: 0 10px;
+            overflow: visible;
+            position: relative;
+        }
+        #nav-thumbs{
+            overflow-y: scroll;
+            padding: 0 5px;
+        }
+        .nav-thumb{
+            position: relative;
+            margin: 10px auto;
+        }
+        .nav-thumb >p{
+            text-align: center;
+            font-size: 12px;
+            margin: 4px 0 0 0;
+        }
+        .nav-thumb >div{
+            position: relative;
+            display: inline-block;
+            border: 1px solid #c6cfd5;
+        }
+        .nav-thumb img{
+            display: block;
+        }
+        #main-content{
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background-color: #d0cfd8;
+            display: flex;
+            height: auto;
+            flex-flow: row wrap;
+            text-align:center;
+        }
+        #svg-container >svg{
+            overflow: visible;
+            display: block;
+            margin:5px auto;
+            margin-bottom: 5px;
+        }
+        #copyright{
+            bottom: 0;
+            left: 50%;
+            margin: 5px auto;
+            font-size: 16px;
+            color: #515151;
+        }
+        #copyright >a{
+            text-decoration: none;
+            color: #77C;
+        }
+        .number{
+            position: absolute;
+            top:0;
+            left:0;
+            border-top:22px solid #08a1ef;
+            border-right: 22px solid transparent;
+        }
+        .pagenum{
+            font-size: 12px;
+            color: #fff;
+            position: absolute;
+            top: -23px;
+            left: 2px;
+        }
+            #navBar::-webkit-scrollbar{
+            width: 8px;
+            background-color: #f5f5f5;
+        }
+            #navBar::-webkit-scrollbar-track{
+            -webkit-box-shadow: inset 0 0 4px rgba(0,0,0,.3);
+            border-radius: 8px;
+            background-color: #fff;
+        }
+            #navBar::-webkit-scrollbar-thumb{
+            border-radius: 8px;
+            -webkit-box-shadow: inset 0 0 4px rgba(0,0,0,.3);
+            background-color: #6b6b70;
+        }
+        #navBar::-webkit-scrollbar-thumb:hover{
+            background-color: #4a4a4f;
+        }
+</style>
+  </head>
+  <body>
+    <div id="main-area">
+      <div id="content-info">
+        <div id="content-info">
+          <div id="title">Generative AI in a Nutshell - How to Survive and Thrive</div>
+        </div>
+        <div id="author-info">
+          <div class="text" id="author-name">Praveen</div>
+          <div class="text" id="share-time">2024-05-11</div>
+        </div>
+      </div>
+      <div id="main-content">
+        <div id="svg-container"><svg xmlns:ev="http://www.w3.org/2001/xml-events" height="1157" preserveAspectRadio="xMinYMin meet" xmlns:ed="https://www.edrawsoft.com/xml/2017/SVGExtensions/" ed:name="Page-1" viewBox="0 0 2752 1157" id="page0" xmlns="http://www.w3.org/2000/svg" ed:hSpacing="30" xmlns:xlink="http://www.w3.org/1999/xlink" ed:vSpacing="30" width="2752">
+    <style type="text/css"><![CDATA[
+g[ed\:togtopicid],g[ed\:hyperlink],g[ed\:comment],g[ed\:note] {cursor:pointer;}
+g[id] {-moz-user-select: none;-ms-user-select: none;user-select: none;}
+svg text::selection,svg tspan::selection{background-color: #4285f4;color: #ffffff;fill: #ffffff;}
+.st1 {fill:#454545;font-family:Arial;font-size:15.75pt}
+.st3 {fill:#454545;font-family:Arial;font-size:9.75pt}
+.st2 {fill:#ffffff;font-family:Arial;font-size:12.75pt}
+]]></style>
+    <defs>
+        <filter id="filter1">
+            <feGaussianBlur stdDeviation="3"/>
+        </filter>
+    </defs>
+    <rect height="1157" x="0" fill="#ffffff" y="0" width="2752"/>
+    <path stroke-linecap="round" stroke-linejoin="round" d="M-66.7,201.8C-67,204.3,-65.5,206.1,-63.6,206.3C-61.7,206.5,-60,204.9,-59.8,202.4C-58.3,188.6,-56.9,174.7,-54.9,160.9C-53,147.1,-50.6,133.4,-48,119.7C-45.3,106,-42.4,92.3,-39.2,78.7C-35.9,65.1,-32.5,51.6,-28.7,38.2C-24.9,24.7,-20.9,11.4,-16.6,-1.9C-12.2,-15.2,-7.6,-28.4,-2.7,-41.4C2.3,-54.5,7.6,-67.4,13.2,-80.2C18.9,-93,25,-105.6,31.4,-117.9C37.9,-130.1,44.6,-141.9,52.5,-154C60.4,-166,69.5,-178.2,77.4,-187.5C85.3,-196.9,92,-203.3,96.7,-207.6C101.3,-211.8,103.9,-214,107.3,-216.5C110.6,-219,114.7,-221.9,118.6,-224.5C122.6,-227,126.3,-229.1,130.7,-231.2C135.2,-233.3,140.3,-235.3,143.6,-236.4C146.8,-237.6,148.2,-237.9,150.2,-238.4C152.2,-238.8,154.7,-239.4,157,-239.8C159.3,-240.2,161.3,-240.5,163.8,-240.7C166.3,-240.9,169.3,-241.1,170.7,-241.1C172.1,-241.2,172,-241.1,171.8,-241.1C171.1,-241,173,-241.6,173,-242.1C173,-242.7,171.1,-243,171.8,-243.1C172,-243.1,172.1,-243.2,170.7,-243.1C169.3,-243.1,166.2,-243,163.6,-242.8C161.1,-242.6,159,-242.3,156.6,-241.9C154.3,-241.5,151.7,-240.9,149.7,-240.5C147.7,-240.1,146.2,-239.7,142.9,-238.6C139.5,-237.4,134.3,-235.4,129.7,-233.4C125.2,-231.3,121.3,-229.2,117.3,-226.6C113.3,-224.1,109.1,-221.2,105.7,-218.6C102.2,-216.1,99.6,-213.9,94.8,-209.6C90,-205.3,83.1,-198.9,75.1,-189.5C67,-180.2,57.7,-167.9,49.6,-155.9C41.6,-143.8,34.6,-131.9,28,-119.7C21.5,-107.4,15.2,-94.7,9.4,-81.9C3.5,-69.1,-1.9,-56.2,-7,-43.1C-12.1,-30,-16.8,-16.8,-21.3,-3.5C-25.8,9.8,-30,23.2,-33.9,36.7C-37.8,50.2,-41.5,63.7,-44.8,77.4C-48.2,91,-51.2,104.7,-54,118.5C-56.9,132.2,-59.4,146,-61.5,159.9C-63.5,173.8,-65.1,187.8,-66.7,201.8z" stroke="#f83d2e" ed:tosuperid="102" fill="#f83d2e" id="103" ed:parentid="101" transform="matrix(1,0,0,1,1476.65,292.13)"/>
+    <path stroke-linecap="round" stroke-linejoin="round" d="M-57.1,125C-57.6,127.5,-56.3,129.5,-54.4,129.8C-52.5,130.1,-50.7,128.7,-50.2,126.2C-47.6,112.6,-44.9,98.9,-41.5,85.5C-38,72,-33.8,58.7,-29.1,45.6C-24.4,32.5,-19.3,19.5,-13.7,6.8C-8.1,-5.9,-1.9,-18.4,4.7,-30.7C11.4,-43,18.7,-55,26.4,-66.4C34.1,-77.9,42.3,-88.8,51.8,-99.5C61.3,-110.3,72.2,-120.9,81.6,-128.7C90.9,-136.4,98.8,-141.4,104.2,-144.7C109.7,-147.9,112.7,-149.5,116.4,-151.3C120.1,-153,124.4,-155,129.2,-156.7C133.9,-158.4,139.1,-159.9,142.4,-160.8C145.7,-161.7,147.2,-162,149.2,-162.3C151.2,-162.7,153.7,-163.1,156,-163.5C158.3,-163.8,160.4,-164.1,162.9,-164.2C165.4,-164.4,168.3,-164.5,169.9,-164.6C171.4,-164.7,171.6,-164.6,171.8,-164.6C172.6,-164.6,173,-165.1,173,-165.6C173,-166.2,172.6,-166.6,171.8,-166.6C171.6,-166.6,171.4,-166.7,169.8,-166.6C168.2,-166.6,165.3,-166.5,162.8,-166.3C160.2,-166.2,158.1,-166,155.7,-165.7C153.4,-165.4,150.8,-164.9,148.8,-164.6C146.7,-164.3,145.2,-164,141.9,-163.1C138.5,-162.3,133.2,-160.8,128.3,-159.1C123.5,-157.4,119,-155.5,115.3,-153.7C111.5,-152,108.3,-150.4,102.7,-147.2C97.2,-143.9,89.1,-139,79.5,-131.2C69.9,-123.4,58.7,-112.8,48.9,-102.1C39.1,-91.3,30.8,-80.3,22.8,-68.9C14.9,-57.4,7.4,-45.3,0.5,-33.1C-6.4,-20.8,-12.8,-8.2,-18.6,4.6C-24.4,17.4,-29.8,30.4,-34.7,43.6C-39.6,56.8,-44,70.2,-47.7,83.8C-51.4,97.4,-54.2,111.2,-57.1,125z" stroke="#f7b426" ed:tosuperid="104" fill="#f7b426" id="105" ed:parentid="101" transform="matrix(1,0,0,1,1476.65,368.63)"/>
+    <path stroke-linecap="round" stroke-linejoin="round" d="M-21.6,24.5L-10.6,24.5C5.7,-24.5,5.7,-24.5,21.6,-24.5" stroke="#f7b426" ed:tosuperid="106" fill="none" id="107" ed:parentid="104" transform="matrix(1,0,0,1,1798.89,178.5)"/>
+    <path stroke-linecap="round" stroke-linejoin="round" d="M-21.6,12.3L-10.6,12.3C5.7,-12.3,5.7,-12.3,21.6,-12.3" stroke="#f7b426" ed:tosuperid="108" fill="none" id="109" ed:parentid="106" transform="matrix(1,0,0,1,1997.04,141.75)"/>
+    <path stroke-linecap="round" stroke-linejoin="round" d="M-10.6,-12.3C5.7,12.3,5.7,12.3,21.6,12.3" stroke="#f7b426" ed:tosuperid="110" fill="none" id="111" ed:parentid="106" transform="matrix(1,0,0,1,1997.04,166.25)"/>
+    <path stroke-linecap="round" stroke-linejoin="round" d="M-10.6,-24.5C5.7,24.5,5.7,24.5,21.6,24.5" stroke="#f7b426" ed:tosuperid="112" fill="none" id="113" ed:parentid="104" transform="matrix(1,0,0,1,1798.89,227.5)"/>
+    <path stroke-linecap="round" stroke-linejoin="round" d="M-21.6,12.3L-10.6,12.3C5.7,-12.3,5.7,-12.3,21.6,-12.3" stroke="#f7b426" ed:tosuperid="114" fill="none" id="115" ed:parentid="112" transform="matrix(1,0,0,1,1927.06,239.75)"/>
+    <path stroke-linecap="round" stroke-linejoin="round" d="M-10.6,-12.3C5.7,12.3,5.7,12.3,21.6,12.3" stroke="#f7b426" ed:tosuperid="116" fill="none" id="117" ed:parentid="112" transform="matrix(1,0,0,1,1927.06,264.25)"/>
+    <path stroke-linecap="round" stroke-linejoin="round" d="M-12.9,28.6C-14.3,30.6,-13.7,33,-12.1,34C-10.4,35,-8.3,34.3,-6.9,32.2C-1.8,24.6,3.2,16.9,9,9.8C14.7,2.6,21.1,-4,27.9,-10.3C34.7,-16.6,41.9,-22.5,49.2,-27.9C56.5,-33.3,63.9,-38.1,72.5,-42.8C81.2,-47.5,91.2,-52,97.6,-54.7C104,-57.4,106.9,-58.2,110.7,-59.4C114.4,-60.5,119.1,-62,124,-63.2C129,-64.4,134.2,-65.5,137.6,-66.1C141,-66.8,142.5,-67,144.5,-67.2C146.5,-67.5,149,-67.9,151.4,-68.1C153.7,-68.4,156,-68.6,158.3,-68.8C160.6,-69,163,-69.1,165.2,-69.2C167.5,-69.3,169.7,-69.3,171.8,-69.4C172.6,-69.4,173,-69.8,173,-70.4C173,-70.9,172.6,-71.4,171.8,-71.4C169.7,-71.4,167.5,-71.4,165.2,-71.3C162.9,-71.3,160.5,-71.2,158.1,-71.1C155.8,-71,153.5,-70.8,151.1,-70.6C148.7,-70.4,146.1,-70.1,144.1,-69.9C142.1,-69.6,140.6,-69.4,137.1,-68.9C133.7,-68.3,128.3,-67.4,123.3,-66.2C118.2,-65.1,113.5,-63.7,109.6,-62.7C105.8,-61.6,102.8,-60.8,96.2,-58.2C89.6,-55.6,79.4,-51.3,70.4,-46.7C61.5,-42.1,53.9,-37.4,46.3,-32C38.7,-26.7,31.1,-20.8,24,-14.5C16.9,-8.2,10.2,-1.6,4.1,5.7C-2,12.9,-7.4,20.7,-12.9,28.6z" stroke="#26b14c" ed:tosuperid="118" fill="#26b14c" id="119" ed:parentid="101" transform="matrix(1,0,0,1,1476.65,463.88)"/>
+    <path stroke-linecap="round" stroke-linejoin="round" d="M-21.6,0L-10.6,0C5.7,0,5.7,0,21.6,0" stroke="#26b14c" ed:tosuperid="120" fill="none" id="121" ed:parentid="118" transform="matrix(1,0,0,1,1899.95,393.5)"/>
+    <path stroke-linecap="round" stroke-linejoin="round" d="M-21.6,20.8L-10.6,20.8C5.7,-20.8,5.7,-20.8,21.6,-20.8" stroke="#26b14c" ed:tosuperid="122" fill="none" id="123" ed:parentid="120" transform="matrix(1,0,0,1,2191.92,372.75)"/>
+    <path stroke-linecap="round" stroke-linejoin="round" d="M-10.6,0C5.7,0,5.7,0,21.6,0" stroke="#26b14c" ed:tosuperid="124" fill="none" id="125" ed:parentid="120" transform="matrix(1,0,0,1,2191.92,393.5)"/>
+    <path stroke-linecap="round" stroke-linejoin="round" d="M-10.6,-20.8C5.7,20.8,5.7,20.8,21.6,20.8" stroke="#26b14c" ed:tosuperid="126" fill="none" id="127" ed:parentid="120" transform="matrix(1,0,0,1,2191.92,414.25)"/>
+    <path stroke-linecap="round" stroke-linejoin="round" d="M102.4,3.8C100,3.1,97.9,4.3,97.4,6.1C96.9,8,98.1,10.1,100.6,10.6C105.2,11.6,109.9,12.6,114.5,13.4C119.1,14.2,123.5,14.8,128.5,15.3C133.5,15.9,139.1,16.3,142.6,16.6C146.1,16.8,147.6,16.9,149.6,16.9C151.7,17,154.3,17.1,156.7,17.1C159,17.1,161.1,17.1,163.7,17.1C166.3,17.1,169.3,17,170.7,17C172.2,16.9,172,16.9,171.8,16.9C171.1,16.9,173,16.5,173,15.9C173,15.4,171.1,14.9,171.8,14.9C172,14.9,172.2,15,170.7,14.9C169.3,14.8,166.3,14.7,163.8,14.5C161.2,14.4,159.1,14.2,156.8,14C154.5,13.8,151.9,13.6,149.9,13.4C147.9,13.2,146.4,13,143,12.5C139.5,12,134.1,11.2,129.2,10.4C124.4,9.5,120.1,8.6,115.7,7.5C111.3,6.4,106.8,5.1,102.4,3.8z" stroke="#1e61ff" ed:tosuperid="128" fill="#1e61ff" id="129" ed:parentid="101" transform="matrix(1,0,0,1,1476.65,550.19)"/>
+    <path stroke-linecap="round" stroke-linejoin="round" d="M-21.6,27.8L-10.6,27.8C5.7,-27.8,5.7,-27.8,21.6,-27.8" stroke="#1e61ff" ed:tosuperid="130" fill="none" id="131" ed:parentid="128" transform="matrix(1,0,0,1,1831.55,538.31)"/>
+    <path stroke-linecap="round" stroke-linejoin="round" d="M-21.6,0L-10.6,0C5.7,0,5.7,0,21.6,0" stroke="#1e61ff" ed:tosuperid="132" fill="none" id="133" ed:parentid="130" transform="matrix(1,0,0,1,2033.97,510.5)"/>
+    <path stroke-linecap="round" stroke-linejoin="round" d="M-10.6,3.3C5.7,-3.3,5.7,-3.3,21.6,-3.3" stroke="#1e61ff" ed:tosuperid="134" fill="none" id="135" ed:parentid="128" transform="matrix(1,0,0,1,1831.55,562.81)"/>
+    <path stroke-linecap="round" stroke-linejoin="round" d="M-21.6,0L-10.6,0C5.7,0,5.7,0,21.6,0" stroke="#1e61ff" ed:tosuperid="136" fill="none" id="137" ed:parentid="134" transform="matrix(1,0,0,1,1973.42,559.5)"/>
+    <path stroke-linecap="round" stroke-linejoin="round" d="M-10.6,-27.8C5.7,27.8,5.7,27.8,21.6,27.8" stroke="#1e61ff" ed:tosuperid="138" fill="none" id="139" ed:parentid="128" transform="matrix(1,0,0,1,1831.55,593.94)"/>
+    <path stroke-linecap="round" stroke-linejoin="round" d="M-21.6,10.4L-10.6,10.4C5.7,-10.4,5.7,-10.4,21.6,-10.4" stroke="#1e61ff" ed:tosuperid="140" fill="none" id="141" ed:parentid="138" transform="matrix(1,0,0,1,2078.81,611.38)"/>
+    <path stroke-linecap="round" stroke-linejoin="round" d="M-10.6,-10.4C5.7,10.4,5.7,10.4,21.6,10.4" stroke="#1e61ff" ed:tosuperid="142" fill="none" id="143" ed:parentid="138" transform="matrix(1,0,0,1,2078.81,632.13)"/>
+    <path stroke-linecap="round" stroke-linejoin="round" d="M-38.9,-82.5C-39.6,-85,-41.5,-86.2,-43.4,-85.7C-45.3,-85.2,-46.4,-83.1,-45.7,-80.7C-42.8,-71.7,-40,-62.7,-36.6,-53.9C-33.2,-45.1,-29.3,-36.5,-25.1,-28C-20.9,-19.6,-16.4,-11.3,-11.6,-3.3C-6.8,4.8,-1.6,12.7,3.8,20.4C9.3,28,15,35.5,21.1,42.6C27.2,49.8,33.6,56.8,40.3,63.3C47,69.8,53.9,76,61.5,81.9C69.1,87.8,77.5,93.5,84.8,97.9C92.1,102.3,98.5,105.4,103.5,107.7C108.6,110,112.5,111.5,116.6,113C120.8,114.5,125.2,116,130.1,117.2C135,118.5,140.4,119.6,143.9,120.3C147.3,120.9,148.8,121.1,150.8,121.4C152.9,121.6,155.4,121.9,157.8,122.1C160.3,122.3,162.6,122.4,164.9,122.5C167.2,122.6,169.5,122.6,171.8,122.6C172.6,122.6,173,122.2,173,121.6C173,121.1,172.6,120.6,171.8,120.6C169.5,120.6,167.3,120.5,165,120.4C162.7,120.3,160.4,120.1,158,119.9C155.7,119.6,153.1,119.3,151.1,119C149.2,118.8,147.7,118.6,144.3,117.9C140.9,117.2,135.6,116,130.8,114.7C126,113.3,121.7,111.8,117.6,110.3C113.6,108.8,109.8,107.2,104.9,104.9C99.9,102.5,93.7,99.3,86.6,94.9C79.4,90.5,71.3,84.8,63.9,78.9C56.5,72.9,49.8,66.8,43.4,60.2C36.9,53.7,30.7,46.8,24.8,39.6C18.9,32.4,13.3,25,8.1,17.4C2.9,9.7,-2.1,1.9,-6.7,-6.1C-11.3,-14.2,-15.6,-22.4,-19.6,-30.7C-23.6,-39.1,-27.3,-47.6,-30.5,-56.2C-33.6,-64.9,-36.3,-73.7,-38.9,-82.5z" stroke="#bb43fe" ed:tosuperid="144" fill="#bb43fe" id="145" ed:parentid="101" transform="matrix(1,0,0,1,1476.65,655.88)"/>
+    <path stroke-linecap="round" stroke-linejoin="round" d="M-21.6,23.1L-10.6,23.1C5.7,-23.1,5.7,-23.1,21.6,-23.1" stroke="#bb43fe" ed:tosuperid="146" fill="none" id="147" ed:parentid="144" transform="matrix(1,0,0,1,1904.3,754.38)"/>
+    <path stroke-linecap="round" stroke-linejoin="round" d="M-21.6,10.4L-10.6,10.4C5.7,-10.4,5.7,-10.4,21.6,-10.4" stroke="#bb43fe" ed:tosuperid="148" fill="none" id="149" ed:parentid="146" transform="matrix(1,0,0,1,2063.47,720.88)"/>
+    <path stroke-linecap="round" stroke-linejoin="round" d="M-10.6,-10.4C5.7,10.4,5.7,10.4,21.6,10.4" stroke="#bb43fe" ed:tosuperid="150" fill="none" id="151" ed:parentid="146" transform="matrix(1,0,0,1,2063.47,741.63)"/>
+    <path stroke-linecap="round" stroke-linejoin="round" d="M-10.6,-23.1C5.7,23.1,5.7,23.1,21.6,23.1" stroke="#bb43fe" ed:tosuperid="152" fill="none" id="153" ed:parentid="144" transform="matrix(1,0,0,1,1904.3,800.63)"/>
+    <path stroke-linecap="round" stroke-linejoin="round" d="M-21.6,18.9L-10.6,18.9C5.7,-18.9,5.7,-18.9,21.6,-18.9" stroke="#bb43fe" ed:tosuperid="154" fill="none" id="155" ed:parentid="152" transform="matrix(1,0,0,1,2013.9,804.88)"/>
+    <path stroke-linecap="round" stroke-linejoin="round" d="M-10.6,1.9C5.7,-1.9,5.7,-1.9,21.6,-1.9" stroke="#bb43fe" ed:tosuperid="156" fill="none" id="157" ed:parentid="152" transform="matrix(1,0,0,1,2013.9,821.88)"/>
+    <path stroke-linecap="round" stroke-linejoin="round" d="M-10.6,-18.9C5.7,18.9,5.7,18.9,21.6,18.9" stroke="#bb43fe" ed:tosuperid="158" fill="none" id="159" ed:parentid="152" transform="matrix(1,0,0,1,2013.9,842.63)"/>
+    <path stroke-linecap="round" stroke-linejoin="round" d="M-59.8,-202.4C-60,-204.9,-61.7,-206.5,-63.6,-206.3C-65.5,-206.1,-67,-204.3,-66.7,-201.8C-65.1,-187.8,-63.5,-173.8,-61.5,-159.9C-59.4,-146,-56.9,-132.2,-54,-118.5C-51.2,-104.7,-48.2,-91,-44.8,-77.4C-41.5,-63.7,-37.8,-50.2,-33.9,-36.7C-30,-23.2,-25.8,-9.8,-21.3,3.5C-16.8,16.8,-12.1,30,-7,43.1C-1.9,56.2,3.5,69.1,9.4,81.9C15.2,94.7,21.5,107.4,28,119.7C34.6,131.9,41.6,143.8,49.6,155.9C57.7,167.9,67,180.2,75.1,189.5C83.1,198.9,90,205.3,94.8,209.6C99.6,213.9,102.2,216.1,105.7,218.6C109.1,221.2,113.3,224.1,117.3,226.6C121.3,229.2,125.2,231.3,129.7,233.4C134.3,235.4,139.5,237.4,142.9,238.6C146.2,239.7,147.7,240.1,149.7,240.5C151.7,240.9,154.3,241.5,156.6,241.9C159,242.3,161.1,242.6,163.6,242.8C166.2,243,169.3,243.1,170.7,243.1C172.1,243.2,172,243.1,171.8,243.1C171.1,243,173,242.7,173,242.1C173,241.6,171.1,241,171.8,241.1C172,241.1,172.1,241.2,170.7,241.1C169.3,241.1,166.3,240.9,163.8,240.7C161.3,240.5,159.3,240.2,157,239.8C154.7,239.4,152.2,238.8,150.2,238.4C148.2,237.9,146.8,237.6,143.6,236.4C140.3,235.3,135.2,233.3,130.7,231.2C126.3,229.1,122.6,227,118.6,224.5C114.7,221.9,110.6,219,107.3,216.5C103.9,214,101.3,211.8,96.7,207.6C92,203.3,85.3,196.9,77.4,187.5C69.5,178.2,60.4,166,52.5,154C44.6,141.9,37.9,130.1,31.4,117.9C25,105.6,18.9,93,13.2,80.2C7.6,67.4,2.3,54.5,-2.7,41.4C-7.6,28.4,-12.2,15.2,-16.6,1.9C-20.9,-11.4,-24.9,-24.7,-28.7,-38.2C-32.5,-51.6,-35.9,-65.1,-39.2,-78.7C-42.4,-92.3,-45.3,-106,-48,-119.7C-50.6,-133.4,-53,-147.1,-54.9,-160.9C-56.9,-174.7,-58.3,-188.6,-59.8,-202.4z" stroke="#ff6e26" ed:tosuperid="160" fill="#ff6e26" id="161" ed:parentid="101" transform="matrix(1,0,0,1,1476.65,776.38)"/>
+    <path stroke-linecap="round" stroke-linejoin="round" d="M-21.6,48.3L-10.6,48.3C5.7,-48.3,5.7,-48.3,21.6,-48.3" stroke="#ff6e26" ed:tosuperid="162" fill="none" id="163" ed:parentid="160" transform="matrix(1,0,0,1,1941.5,970.25)"/>
+    <path stroke-linecap="round" stroke-linejoin="round" d="M-10.6,35C5.7,-35,5.7,-35,21.6,-35" stroke="#ff6e26" ed:tosuperid="164" fill="none" id="165" ed:parentid="160" transform="matrix(1,0,0,1,1941.5,983.5)"/>
+    <path stroke-linecap="round" stroke-linejoin="round" d="M-10.6,21.8C5.7,-21.8,5.7,-21.8,21.6,-21.8" stroke="#ff6e26" ed:tosuperid="166" fill="none" id="167" ed:parentid="160" transform="matrix(1,0,0,1,1941.5,996.75)"/>
+    <path stroke-linecap="round" stroke-linejoin="round" d="M-10.6,8.5C5.7,-8.5,5.7,-8.5,21.6,-8.5" stroke="#ff6e26" ed:tosuperid="168" fill="none" id="169" ed:parentid="160" transform="matrix(1,0,0,1,1941.5,1010)"/>
+    <path stroke-linecap="round" stroke-linejoin="round" d="M-10.6,-4.8C5.7,4.8,5.7,4.8,21.6,4.8" stroke="#ff6e26" ed:tosuperid="170" fill="none" id="171" ed:parentid="160" transform="matrix(1,0,0,1,1941.5,1023.25)"/>
+    <path stroke-linecap="round" stroke-linejoin="round" d="M-10.6,-18C5.7,18,5.7,18,21.6,18" stroke="#ff6e26" ed:tosuperid="172" fill="none" id="173" ed:parentid="160" transform="matrix(1,0,0,1,1941.5,1036.5)"/>
+    <path stroke-linecap="round" stroke-linejoin="round" d="M-10.6,-31.3C5.7,31.3,5.7,31.3,21.6,31.3" stroke="#ff6e26" ed:tosuperid="174" fill="none" id="175" ed:parentid="160" transform="matrix(1,0,0,1,1941.5,1049.75)"/>
+    <path stroke-linecap="round" stroke-linejoin="round" d="M-10.6,-48.3C5.7,48.3,5.7,48.3,21.6,48.3" stroke="#ff6e26" ed:tosuperid="176" fill="none" id="177" ed:parentid="160" transform="matrix(1,0,0,1,1941.5,1066.75)"/>
+    <path stroke-linecap="round" stroke-linejoin="round" d="M58.8,-134.4C59.2,-136.9,57.8,-138.8,55.9,-139.1C54,-139.3,52.3,-137.9,51.8,-135.4C49.4,-121.8,47,-108.1,43.8,-94.6C40.6,-81,36.7,-67.6,32.4,-54.4C28,-41.1,23.3,-28,18.1,-15.1C12.9,-2.2,7.2,10.5,1,23C-5.2,35.6,-11.9,47.9,-19,59.7C-26.1,71.6,-33.5,82.9,-42.4,94.3C-51.3,105.7,-61.5,117.3,-69.9,125.7C-78.2,134.1,-84.6,139.3,-90.9,143.9C-97.1,148.5,-103.3,152.6,-108.1,155.5C-113,158.4,-116.5,160.1,-120.4,161.9C-124.3,163.7,-128.5,165.5,-133.3,167.1C-138,168.8,-143.2,170.2,-146.6,171C-149.9,171.8,-151.4,172,-153.4,172.3C-155.3,172.6,-157.8,173,-160.3,173.3C-162.7,173.5,-165.2,173.7,-167.2,173.8C-169.1,173.9,-170.5,173.9,-171.8,173.9C-172.6,173.9,-173,174.4,-173,174.9C-173,175.5,-172.6,175.9,-171.8,175.9C-170.5,175.9,-169.1,175.9,-167.1,175.8C-165.1,175.8,-162.6,175.6,-160,175.4C-157.5,175.1,-155,174.8,-153,174.5C-151,174.2,-149.5,174,-146.1,173.2C-142.7,172.4,-137.3,171.1,-132.5,169.5C-127.6,167.9,-123.3,166.1,-119.3,164.3C-115.3,162.6,-111.7,160.8,-106.7,157.9C-101.8,155,-95.4,151,-89,146.4C-82.6,141.7,-76,136.5,-67.5,128.1C-58.9,119.8,-48.4,108.2,-39.3,96.7C-30.2,85.2,-22.5,73.9,-15.2,62C-7.9,50.2,-1,37.8,5.4,25.3C11.9,12.7,17.7,-0.1,23.1,-13C28.5,-26,33.5,-39.2,38,-52.5C42.6,-65.8,46.7,-79.3,50.1,-93C53.5,-106.6,56.1,-120.5,58.8,-134.4z" stroke="#7cb342" ed:tosuperid="178" fill="#7cb342" id="179" ed:parentid="101" transform="matrix(1,0,0,1,1132.97,709.16)"/>
+    <path stroke-linecap="round" stroke-linejoin="round" d="M21.6,25.9L10.6,25.9C-5.7,-25.9,-5.7,-25.9,-21.6,-25.9" stroke="#7cb342" ed:tosuperid="180" fill="none" id="181" ed:parentid="178" transform="matrix(1,0,0,1,739,858.13)"/>
+    <path stroke-linecap="round" stroke-linejoin="round" d="M21.6,8.5L10.6,8.5C-5.7,-8.5,-5.7,-8.5,-21.6,-8.5" stroke="#7cb342" ed:tosuperid="182" fill="none" id="183" ed:parentid="180" transform="matrix(1,0,0,1,562.49,823.69)"/>
+    <path stroke-linecap="round" stroke-linejoin="round" d="M10.6,-8.5C-5.7,8.5,-5.7,8.5,-21.6,8.5" stroke="#7cb342" ed:tosuperid="184" fill="none" id="185" ed:parentid="180" transform="matrix(1,0,0,1,562.49,840.69)"/>
+    <path stroke-linecap="round" stroke-linejoin="round" d="M10.6,-25.9C-5.7,25.9,-5.7,25.9,-21.6,25.9" stroke="#7cb342" ed:tosuperid="186" fill="none" id="187" ed:parentid="178" transform="matrix(1,0,0,1,739,910)"/>
+    <path stroke-linecap="round" stroke-linejoin="round" d="M21.6,22.6L10.6,22.6C-5.7,-22.6,-5.7,-22.6,-21.6,-22.6" stroke="#7cb342" ed:tosuperid="188" fill="none" id="189" ed:parentid="186" transform="matrix(1,0,0,1,559.6,913.31)"/>
+    <path stroke-linecap="round" stroke-linejoin="round" d="M10.6,1.9C-5.7,-1.9,-5.7,-1.9,-21.6,-1.9" stroke="#7cb342" ed:tosuperid="190" fill="none" id="191" ed:parentid="186" transform="matrix(1,0,0,1,559.6,934.06)"/>
+    <path stroke-linecap="round" stroke-linejoin="round" d="M10.6,-22.6C-5.7,22.6,-5.7,22.6,-21.6,22.6" stroke="#7cb342" ed:tosuperid="192" fill="none" id="193" ed:parentid="186" transform="matrix(1,0,0,1,559.6,958.56)"/>
+    <path stroke-linecap="round" stroke-linejoin="round" d="M29.7,-48.1C30.8,-50.3,29.9,-52.6,28.1,-53.3C26.4,-54.1,24.3,-53.1,23.2,-50.9C19.3,-42.6,15.4,-34.3,10.8,-26.3C6.3,-18.3,1,-10.7,-4.6,-3.3C-10.1,4,-16,11.1,-22.4,17.9C-28.7,24.6,-35.4,31.1,-42.4,37C-49.3,43,-56.5,48.6,-64.4,53.9C-72.3,59.1,-80.9,64.1,-88.3,67.9C-95.8,71.7,-102.3,74.3,-107.4,76.2C-112.5,78.2,-116.4,79.5,-120.5,80.7C-124.7,81.9,-129.1,83.1,-134,84.2C-138.9,85.2,-144.2,86.1,-147.7,86.6C-151.1,87.2,-152.6,87.3,-154.6,87.5C-156.5,87.7,-159,87.9,-161.5,88.1C-164,88.2,-166.7,88.4,-168.5,88.4C-170.2,88.5,-171,88.5,-171.8,88.5C-172.6,88.5,-173,88.9,-173,89.5C-173,90,-172.6,90.5,-171.8,90.5C-171,90.5,-170.2,90.5,-168.4,90.5C-166.7,90.5,-164,90.4,-161.4,90.3C-158.8,90.2,-156.3,90,-154.4,89.8C-152.4,89.7,-150.8,89.6,-147.3,89.1C-143.9,88.6,-138.4,87.8,-133.4,86.9C-128.4,85.9,-123.9,84.8,-119.7,83.6C-115.5,82.4,-111.5,81.2,-106.3,79.3C-101,77.5,-94.4,74.9,-86.7,71.2C-79,67.5,-70.2,62.6,-62.1,57.4C-53.9,52.2,-46.5,46.7,-39.3,40.7C-32.1,34.8,-25.1,28.3,-18.5,21.6C-11.9,14.8,-5.7,7.7,0.1,0.3C6,-7.1,11.5,-14.9,16.4,-23C21.2,-31.1,25.4,-39.6,29.7,-48.1z" stroke="#00bbff" ed:tosuperid="194" fill="#00bbff" id="195" ed:parentid="101" transform="matrix(1,0,0,1,1132.97,623.72)"/>
+    <path stroke-linecap="round" stroke-linejoin="round" d="M21.6,20.8L10.6,20.8C-5.7,-20.8,-5.7,-20.8,-21.6,-20.8" stroke="#00bbff" ed:tosuperid="196" fill="none" id="197" ed:parentid="194" transform="matrix(1,0,0,1,677.58,692.44)"/>
+    <path stroke-linecap="round" stroke-linejoin="round" d="M10.6,0C-5.7,0,-5.7,0,-21.6,0" stroke="#00bbff" ed:tosuperid="198" fill="none" id="199" ed:parentid="194" transform="matrix(1,0,0,1,677.58,713.19)"/>
+    <path stroke-linecap="round" stroke-linejoin="round" d="M10.6,-20.8C-5.7,20.8,-5.7,20.8,-21.6,20.8" stroke="#00bbff" ed:tosuperid="200" fill="none" id="201" ed:parentid="194" transform="matrix(1,0,0,1,677.58,733.94)"/>
+    <path stroke-linecap="round" stroke-linejoin="round" d="M-91.7,10.5C-89.4,9.5,-88.6,7.2,-89.5,5.5C-90.3,3.8,-92.5,3.1,-94.8,4.2C-98.9,6.2,-103,8.2,-107.2,10C-111.4,11.7,-115.8,13.3,-120.1,14.7C-124.4,16.1,-128.7,17.3,-133.5,18.4C-138.3,19.4,-143.6,20.4,-147.1,21C-150.5,21.6,-152,21.8,-153.9,22C-155.9,22.2,-158.3,22.5,-160.8,22.7C-163.4,22.9,-165.9,23.1,-167.8,23.2C-169.6,23.3,-170.7,23.3,-171.8,23.3C-172.6,23.4,-173,23.8,-173,24.3C-173,24.9,-172.6,25.3,-171.8,25.3C-170.7,25.4,-169.6,25.4,-167.7,25.4C-165.9,25.4,-163.3,25.4,-160.7,25.4C-158.1,25.3,-155.7,25.2,-153.7,25.1C-151.7,25,-150.1,24.9,-146.6,24.5C-143.1,24.2,-137.6,23.5,-132.6,22.7C-127.6,21.9,-123.2,20.9,-118.7,19.7C-114.2,18.6,-109.6,17.3,-105,15.7C-100.5,14.1,-96.1,12.3,-91.7,10.5z" stroke="#7516e8" ed:tosuperid="202" fill="#7516e8" id="203" ed:parentid="101" transform="matrix(1,0,0,1,1132.97,558.59)"/>
+    <path stroke-linecap="round" stroke-linejoin="round" d="M21.6,10.4L10.6,10.4C-5.7,-10.4,-5.7,-10.4,-21.6,-10.4" stroke="#7516e8" ed:tosuperid="204" fill="none" id="205" ed:parentid="202" transform="matrix(1,0,0,1,739.89,572.56)"/>
+    <path stroke-linecap="round" stroke-linejoin="round" d="M10.6,-10.4C-5.7,10.4,-5.7,10.4,-21.6,10.4" stroke="#7516e8" ed:tosuperid="206" fill="none" id="207" ed:parentid="202" transform="matrix(1,0,0,1,739.89,593.31)"/>
+    <path stroke-linecap="round" stroke-linejoin="round" d="M-21.9,13.6C-20.1,15.4,-17.9,15.6,-16.4,14.3C-15,13,-14.9,10.6,-16.8,8.8C-21.9,3.9,-27.1,-1.1,-32.6,-5.6C-38.1,-10.1,-44,-14.3,-49.9,-18C-55.8,-21.8,-61.7,-25.3,-68.4,-28.6C-75,-31.9,-82.3,-35,-87.8,-37.2C-93.2,-39.4,-96.9,-40.6,-101.1,-41.9C-105.3,-43.2,-110.1,-44.6,-114.7,-45.7C-119.3,-46.9,-123.6,-47.8,-128.5,-48.7C-133.4,-49.5,-138.9,-50.3,-142.4,-50.7C-145.9,-51.2,-147.4,-51.3,-149.4,-51.4C-151.5,-51.6,-154.1,-51.8,-156.5,-51.9C-158.8,-52.1,-160.9,-52.1,-163.5,-52.2C-166.1,-52.2,-169.1,-52.2,-170.5,-52.2C-172,-52.2,-171.9,-52.2,-171.8,-52.2C-171.1,-52.2,-173,-51.8,-173,-51.2C-173,-50.7,-171.1,-50.1,-171.8,-50.2C-171.9,-50.2,-172,-50.2,-170.5,-50.2C-169.1,-50.2,-166.1,-50.1,-163.6,-49.9C-161.1,-49.8,-159,-49.7,-156.6,-49.5C-154.3,-49.3,-151.7,-49,-149.7,-48.8C-147.7,-48.6,-146.2,-48.4,-142.8,-47.9C-139.4,-47.4,-133.9,-46.4,-129.1,-45.5C-124.3,-44.5,-120.1,-43.4,-115.6,-42.2C-111.2,-40.9,-106.5,-39.4,-102.4,-38C-98.3,-36.6,-94.8,-35.3,-89.5,-33C-84.2,-30.7,-77.1,-27.4,-70.8,-24C-64.4,-20.6,-58.7,-17.1,-53.1,-13.2C-47.4,-9.4,-41.8,-5.2,-36.6,-0.7C-31.5,3.8,-26.7,8.7,-21.9,13.6z" stroke="#ff45a2" ed:tosuperid="208" fill="#ff45a2" id="209" ed:parentid="101" transform="matrix(1,0,0,1,1132.97,483.03)"/>
+    <path stroke-linecap="round" stroke-linejoin="round" d="M21.6,16.1L10.6,16.1C-5.7,-16.1,-5.7,-16.1,-21.6,-16.1" stroke="#ff45a2" ed:tosuperid="210" fill="none" id="211" ed:parentid="208" transform="matrix(1,0,0,1,749.36,415.75)"/>
+    <path stroke-linecap="round" stroke-linejoin="round" d="M10.6,-16.1C-5.7,16.1,-5.7,16.1,-21.6,16.1" stroke="#ff45a2" ed:tosuperid="212" fill="none" id="213" ed:parentid="208" transform="matrix(1,0,0,1,749.36,447.88)"/>
+    <path stroke-linecap="round" stroke-linejoin="round" d="M21.6,15.1L10.6,15.1C-5.7,-15.1,-5.7,-15.1,-21.6,-15.1" stroke="#ff45a2" ed:tosuperid="214" fill="none" id="215" ed:parentid="212" transform="matrix(1,0,0,1,620.47,448.81)"/>
+    <path stroke-linecap="round" stroke-linejoin="round" d="M10.6,1.9C-5.7,-1.9,-5.7,-1.9,-21.6,-1.9" stroke="#ff45a2" ed:tosuperid="216" fill="none" id="217" ed:parentid="212" transform="matrix(1,0,0,1,620.47,462.06)"/>
+    <path stroke-linecap="round" stroke-linejoin="round" d="M10.6,-15.1C-5.7,15.1,-5.7,15.1,-21.6,15.1" stroke="#ff45a2" ed:tosuperid="218" fill="none" id="219" ed:parentid="212" transform="matrix(1,0,0,1,620.47,479.06)"/>
+    <path stroke-linecap="round" stroke-linejoin="round" d="M35.1,72.7C35.9,75.1,37.8,76.2,39.7,75.7C41.5,75.1,42.6,73,41.8,70.6C38.5,61.7,35.3,52.8,31.6,44.1C27.8,35.5,23.5,27.1,18.8,18.9C14.2,10.7,9.2,2.7,3.9,-5.1C-1.4,-12.9,-7.1,-20.4,-13,-27.7C-19,-34.9,-25.3,-41.9,-31.9,-48.6C-38.6,-55.3,-45.7,-61.7,-52.9,-67.6C-60,-73.4,-67.2,-78.8,-75.8,-84C-84.4,-89.2,-94.3,-94.3,-100.7,-97.3C-107.1,-100.4,-110,-101.3,-113.8,-102.6C-117.5,-103.9,-122.2,-105.5,-127.2,-106.9C-132.2,-108.2,-137.6,-109.3,-141,-110C-144.4,-110.6,-145.9,-110.8,-147.9,-111.1C-150,-111.4,-152.6,-111.7,-154.9,-111.9C-157.3,-112.2,-159.5,-112.3,-162,-112.4C-164.5,-112.6,-167.3,-112.6,-169,-112.7C-170.7,-112.7,-171.3,-112.7,-171.8,-112.7C-172.6,-112.6,-173,-112.2,-173,-111.7C-173,-111.1,-172.6,-110.7,-171.8,-110.7C-171.3,-110.7,-170.7,-110.7,-169,-110.6C-167.4,-110.6,-164.6,-110.4,-162.1,-110.3C-159.6,-110.1,-157.5,-109.9,-155.2,-109.7C-152.8,-109.4,-150.3,-109,-148.3,-108.7C-146.3,-108.4,-144.8,-108.2,-141.4,-107.5C-138.1,-106.8,-132.9,-105.6,-128,-104.2C-123.1,-102.8,-118.5,-101.1,-114.8,-99.8C-111.1,-98.5,-108.3,-97.5,-102,-94.4C-95.8,-91.3,-86.1,-86.2,-77.8,-80.9C-69.5,-75.6,-62.5,-70.2,-55.5,-64.3C-48.6,-58.4,-41.7,-52.1,-35.3,-45.4C-28.8,-38.7,-22.8,-31.7,-17,-24.5C-11.3,-17.2,-5.8,-9.7,-0.7,-2C4.4,5.8,9.1,13.7,13.5,21.8C17.9,30,22.1,38.3,25.6,46.8C29.1,55.3,32.1,64,35.1,72.7z" stroke="#f83d2e" ed:tosuperid="220" fill="#f83d2e" id="221" ed:parentid="101" transform="matrix(1,0,0,1,1132.97,422.59)"/>
+    <path stroke-linecap="round" stroke-linejoin="round" d="M21.6,10.4L10.6,10.4C-5.7,-10.4,-5.7,-10.4,-21.6,-10.4" stroke="#f83d2e" ed:tosuperid="222" fill="none" id="223" ed:parentid="220" transform="matrix(1,0,0,1,723.86,300.56)"/>
+    <path stroke-linecap="round" stroke-linejoin="round" d="M10.6,-10.4C-5.7,10.4,-5.7,10.4,-21.6,10.4" stroke="#f83d2e" ed:tosuperid="224" fill="none" id="225" ed:parentid="220" transform="matrix(1,0,0,1,723.86,321.31)"/>
+    <path stroke-linecap="round" stroke-linejoin="round" d="M51.8,135.4C52.3,137.9,54,139.3,55.9,139.1C57.8,138.8,59.2,136.9,58.8,134.4C56.1,120.5,53.5,106.6,50.1,93C46.7,79.3,42.6,65.8,38,52.5C33.5,39.2,28.5,26,23.1,13C17.7,0.1,11.9,-12.7,5.4,-25.3C-1,-37.8,-7.9,-50.2,-15.2,-62C-22.5,-73.9,-30.2,-85.2,-39.3,-96.7C-48.4,-108.2,-58.9,-119.8,-67.5,-128.1C-76,-136.5,-82.6,-141.7,-89,-146.4C-95.4,-151,-101.8,-155,-106.7,-157.9C-111.7,-160.8,-115.3,-162.6,-119.3,-164.3C-123.3,-166.1,-127.6,-167.9,-132.5,-169.5C-137.3,-171.1,-142.7,-172.4,-146.1,-173.2C-149.5,-174,-151,-174.2,-153,-174.5C-155,-174.8,-157.5,-175.1,-160,-175.4C-162.6,-175.6,-165.1,-175.8,-167.1,-175.8C-169.1,-175.9,-170.5,-175.9,-171.8,-175.9C-172.6,-175.9,-173,-175.5,-173,-174.9C-173,-174.4,-172.6,-173.9,-171.8,-173.9C-170.5,-173.9,-169.1,-173.9,-167.2,-173.8C-165.2,-173.7,-162.7,-173.5,-160.3,-173.3C-157.8,-173,-155.3,-172.6,-153.4,-172.3C-151.4,-172,-149.9,-171.8,-146.6,-171C-143.2,-170.2,-138,-168.8,-133.3,-167.1C-128.5,-165.5,-124.3,-163.7,-120.4,-161.9C-116.5,-160.1,-113,-158.4,-108.1,-155.5C-103.3,-152.6,-97.1,-148.5,-90.9,-143.9C-84.6,-139.3,-78.2,-134.1,-69.9,-125.7C-61.5,-117.3,-51.3,-105.7,-42.4,-94.3C-33.5,-82.9,-26.1,-71.6,-19,-59.7C-11.9,-47.9,-5.2,-35.6,1,-23C7.2,-10.5,12.9,2.2,18.1,15.1C23.3,28,28,41.1,32.4,54.4C36.7,67.6,40.6,81,43.8,94.6C47,108.1,49.4,121.8,51.8,135.4z" stroke="#f7b426" ed:tosuperid="226" fill="#f7b426" id="227" ed:parentid="101" transform="matrix(1,0,0,1,1132.97,359.34)"/>
+    <path stroke-linecap="round" stroke-linejoin="round" d="M21.6,18.9L10.6,18.9C-5.7,-18.9,-5.7,-18.9,-21.6,-18.9" stroke="#f7b426" ed:tosuperid="228" fill="none" id="229" ed:parentid="226" transform="matrix(1,0,0,1,815.47,165.56)"/>
+    <path stroke-linecap="round" stroke-linejoin="round" d="M10.6,1.9C-5.7,-1.9,-5.7,-1.9,-21.6,-1.9" stroke="#f7b426" ed:tosuperid="230" fill="none" id="231" ed:parentid="226" transform="matrix(1,0,0,1,815.47,182.56)"/>
+    <path stroke-linecap="round" stroke-linejoin="round" d="M10.6,-18.9C-5.7,18.9,-5.7,18.9,-21.6,18.9" stroke="#f7b426" ed:tosuperid="232" fill="none" id="233" ed:parentid="226" transform="matrix(1,0,0,1,815.47,203.31)"/>
+    <g ed:width="561.3599999999999" ed:height="80" ed:layout="map" ed:topictype="mainidea" id="101" transform="matrix(1,0,0,1,1024.13,494.25)">
+        <path filter="url(#filter1)" d="M40,0L521.4,0C543.5,0,561.4,17.9,561.4,40C561.4,62.1,543.5,80,521.4,80L40,80C17.9,80,0,62.1,0,40C0,17.9,17.9,0,40,0z" fill="#000000" fill-opacity="0.2"/>
+        <path d="M40,0L521.4,0C543.5,0,561.4,17.9,561.4,40C561.4,62.1,543.5,80,521.4,80L40,80C17.9,80,0,62.1,0,40C0,17.9,17.9,0,40,0z" fill="#ffffff"/>
+        <text class="st1">
+            <tspan style="white-space:pre" x="56" textLength="455" y="34">Generative AI in a Nutshell - How to Survive and </tspan>
+            <tspan style="white-space:pre" x="252" textLength="58" y="59">Thrive</tspan>
+        </text>
+    </g>
+    <g ed:width="536" ed:height="58" ed:layout="rightmap" id="102" ed:parentid="101" transform="matrix(1,0,0,1,1648.49,21)">
+        <path d="M4,0L532,0C534.7,0,536,1.3,536,4L536,54C536,56.7,534.7,58,532,58L4,58C1.3,58,0,56.7,0,54L0,4C0,1.3,1.3,0,4,0z" fill="#f83d2e"/>
+        <text class="st2">
+            <tspan style="white-space:pre" x="20" textLength="500" y="24">Generative AI in a Nutshell - How to Survive and Thrive in the Age </tspan>
+            <tspan style="white-space:pre" x="20" textLength="34" y="44">of AI</tspan>
+        </text>
+    </g>
+    <g ed:width="128.796875" ed:height="38" ed:layout="rightmap" id="104" ed:parentid="101" transform="matrix(1,0,0,1,1648.49,184)">
+        <path d="M4,0L124.8,0C127.5,0,128.8,1.3,128.8,4L128.8,34C128.8,36.7,127.5,38,124.8,38L4,38C1.3,38,0,36.7,0,34L0,4C0,1.3,1.3,0,4,0z" fill="#f7b426"/>
+        <text class="st2">
+            <tspan style="white-space:pre" x="20" textLength="89" y="24">Introduction</tspan>
+        </text>
+    </g>
+    <g ed:width="154.953125" ed:height="20" ed:layout="rightmap" id="106" ed:parentid="104" transform="matrix(1,0,0,1,1820.49,144)">
+        <text class="st3">
+            <tspan style="white-space:pre" x="10" textLength="135" y="15.5">Evolution of Computers</tspan>
+        </text>
+    </g>
+    <g ed:width="516" ed:height="35" ed:layout="rightmap" id="108" ed:parentid="106" transform="matrix(1,0,0,1,2018.64,112)">
+        <text class="st3">
+            <tspan style="white-space:pre" x="10" textLength="499" y="15.5">Glorified calculators: Ever since computers were invented, they've been machines that </tspan>
+            <tspan style="white-space:pre" x="10" textLength="354" y="30.5">execute the exact instructions given to them by programmers.</tspan>
+        </text>
+    </g>
+    <g ed:width="516" ed:height="50" ed:layout="rightmap" id="110" ed:parentid="106" transform="matrix(1,0,0,1,2018.64,153.5)">
+        <text class="st3">
+            <tspan style="white-space:pre" x="10" textLength="469" y="15.5">Generative AI: Now, computers have started to gain the ability to learn, think, and </tspan>
+            <tspan style="white-space:pre" x="10" textLength="456" y="30.5">communicate like humans, doing creative, intellectual work that previously only </tspan>
+            <tspan style="white-space:pre" x="10" textLength="103" y="45.5">humans could do.</tspan>
+        </text>
+    </g>
+    <g ed:width="84.96875" ed:height="20" ed:layout="rightmap" id="112" ed:parentid="104" transform="matrix(1,0,0,1,1820.49,242)">
+        <text class="st3">
+            <tspan style="white-space:pre" x="10" textLength="65" y="15.5">Importance</tspan>
+        </text>
+    </g>
+    <g ed:width="516" ed:height="35" ed:layout="rightmap" id="114" ed:parentid="112" transform="matrix(1,0,0,1,1948.66,210)">
+        <text class="st3">
+            <tspan style="white-space:pre" x="10" textLength="448" y="15.5">Affects everyone: Generative AI is going to affect just about every person and </tspan>
+            <tspan style="white-space:pre" x="10" textLength="272" y="30.5">company on the planet, positively or negatively.</tspan>
+        </text>
+    </g>
+    <g ed:width="516" ed:height="50" ed:layout="rightmap" id="116" ed:parentid="112" transform="matrix(1,0,0,1,1948.66,251.5)">
+        <text class="st3">
+            <tspan style="white-space:pre" x="10" textLength="468" y="15.5">Understand to survive and thrive: The better you understand this technology as a </tspan>
+            <tspan style="white-space:pre" x="10" textLength="492" y="30.5">person, team, or company, the better equipped you will be to survive and thrive in the </tspan>
+            <tspan style="white-space:pre" x="10" textLength="55" y="45.5">age of AI.</tspan>
+        </text>
+    </g>
+    <g ed:width="229.859375" ed:height="38" ed:layout="rightmap" id="118" ed:parentid="101" transform="matrix(1,0,0,1,1648.49,374.5)">
+        <path d="M4,0L225.9,0C228.5,0,229.9,1.3,229.9,4L229.9,34C229.9,36.7,228.5,38,225.9,38L4,38C1.3,38,0,36.7,0,34L0,4C0,1.3,1.3,0,4,0z" fill="#26b14c"/>
+        <text class="st2">
+            <tspan style="white-space:pre" x="20" textLength="190" y="24">Concept of Generative AI</tspan>
+        </text>
+    </g>
+    <g ed:width="248.765625" ed:height="20" ed:layout="rightmap" id="120" ed:parentid="118" transform="matrix(1,0,0,1,1921.55,383.5)">
+        <text class="st3">
+            <tspan style="white-space:pre" x="10" textLength="229" y="15.5">Mental Model: Einstein in the Basement</tspan>
+        </text>
+    </g>
+    <g ed:width="516" ed:height="35" ed:layout="rightmap" id="122" ed:parentid="120" transform="matrix(1,0,0,1,2213.52,334.5)">
+        <text class="st3">
+            <tspan style="white-space:pre" x="10" textLength="489" y="15.5">Combination of human knowledge: Imagine having Einstein, representing the sum of </tspan>
+            <tspan style="white-space:pre" x="10" textLength="232" y="30.5">all human knowledge, in your basement.</tspan>
+        </text>
+    </g>
+    <g ed:width="516" ed:height="35" ed:layout="rightmap" id="124" ed:parentid="120" transform="matrix(1,0,0,1,2213.52,376)">
+        <text class="st3">
+            <tspan style="white-space:pre" x="10" textLength="419" y="15.5">Human-like limitations: He can make mistakes, jump to conclusions, and </tspan>
+            <tspan style="white-space:pre" x="10" textLength="113" y="30.5">misunderstand you.</tspan>
+        </text>
+    </g>
+    <g ed:width="516" ed:height="35" ed:layout="rightmap" id="126" ed:parentid="120" transform="matrix(1,0,0,1,2213.52,417.5)">
+        <text class="st3">
+            <tspan style="white-space:pre" x="10" textLength="490" y="15.5">Prompt engineering as a key skill: The biggest limitation is your imagination and your </tspan>
+            <tspan style="white-space:pre" x="10" textLength="422" y="30.5">ability to communicate effectively with him, known as prompt engineering.</tspan>
+        </text>
+    </g>
+    <g ed:width="161.453125" ed:height="38" ed:layout="rightmap" id="128" ed:parentid="101" transform="matrix(1,0,0,1,1648.49,547.13)">
+        <path d="M4,0L157.5,0C160.1,0,161.5,1.3,161.5,4L161.5,34C161.5,36.7,160.1,38,157.5,38L4,38C1.3,38,0,36.7,0,34L0,4C0,1.3,1.3,0,4,0z" fill="#1e61ff"/>
+        <text class="st2">
+            <tspan style="white-space:pre" x="20" textLength="121" y="24">Clarifying Terms</tspan>
+        </text>
+    </g>
+    <g ed:width="159.21875" ed:height="20" ed:layout="rightmap" id="130" ed:parentid="128" transform="matrix(1,0,0,1,1853.15,500.5)">
+        <text class="st3">
+            <tspan style="white-space:pre" x="10" textLength="139" y="15.5">Artificial Intelligence (AI)</tspan>
+        </text>
+    </g>
+    <g ed:width="516" ed:height="50" ed:layout="rightmap" id="132" ed:parentid="130" transform="matrix(1,0,0,1,2055.57,485.5)">
+        <text class="st3">
+            <tspan style="white-space:pre" x="10" textLength="493" y="15.5">Traditional AI: Fields like machine learning and computer vision have been around for </tspan>
+            <tspan style="white-space:pre" x="10" textLength="472" y="30.5">decades, used in YouTube recommendations, web search results, and credit card </tspan>
+            <tspan style="white-space:pre" x="10" textLength="74" y="45.5">transactions.</tspan>
+        </text>
+    </g>
+    <g ed:width="98.671875" ed:height="20" ed:layout="rightmap" id="134" ed:parentid="128" transform="matrix(1,0,0,1,1853.15,549.5)">
+        <text class="st3">
+            <tspan style="white-space:pre" x="10" textLength="79" y="15.5">Generative AI</tspan>
+        </text>
+    </g>
+    <g ed:width="516" ed:height="35" ed:layout="rightmap" id="136" ed:parentid="134" transform="matrix(1,0,0,1,1995.02,542)">
+        <text class="st3">
+            <tspan style="white-space:pre" x="10" textLength="494" y="15.5">Generates new content: AI that generates new original content rather than just finding </tspan>
+            <tspan style="white-space:pre" x="10" textLength="172" y="30.5">or classifying existing content.</tspan>
+        </text>
+    </g>
+    <g ed:width="204.0625" ed:height="20" ed:layout="rightmap" id="138" ed:parentid="128" transform="matrix(1,0,0,1,1853.15,611.75)">
+        <text class="st3">
+            <tspan style="white-space:pre" x="10" textLength="184" y="15.5">Large Language Models (LLMs)</tspan>
+        </text>
+    </g>
+    <g ed:width="516" ed:height="35" ed:layout="rightmap" id="140" ed:parentid="138" transform="matrix(1,0,0,1,2100.41,583.5)">
+        <text class="st3">
+            <tspan style="white-space:pre" x="10" textLength="463" y="15.5">Communicate in human language: LLMs can communicate using normal human </tspan>
+            <tspan style="white-space:pre" x="10" textLength="57" y="30.5">language.</tspan>
+        </text>
+    </g>
+    <g ed:width="516" ed:height="35" ed:layout="rightmap" id="142" ed:parentid="138" transform="matrix(1,0,0,1,2100.41,625)">
+        <text class="st3">
+            <tspan style="white-space:pre" x="10" textLength="485" y="15.5">Example: ChatGPT: Started as an LLM, an advanced chatbot using the Transformer </tspan>
+            <tspan style="white-space:pre" x="10" textLength="275" y="30.5">architecture, which is fluent at human language.</tspan>
+        </text>
+    </g>
+    <g ed:width="234.203125" ed:height="38" ed:layout="rightmap" id="144" ed:parentid="101" transform="matrix(1,0,0,1,1648.49,758.5)">
+        <path d="M4,0L230.2,0C232.9,0,234.2,1.3,234.2,4L234.2,34C234.2,36.7,232.9,38,230.2,38L4,38C1.3,38,0,36.7,0,34L0,4C0,1.3,1.3,0,4,0z" fill="#bb43fe"/>
+        <text class="st2">
+            <tspan style="white-space:pre" x="20" textLength="194" y="24">How Generative AI Works</tspan>
+        </text>
+    </g>
+    <g ed:width="115.96875" ed:height="20" ed:layout="rightmap" id="146" ed:parentid="144" transform="matrix(1,0,0,1,1925.9,721.25)">
+        <text class="st3">
+            <tspan style="white-space:pre" x="10" textLength="96" y="15.5">Neural Networks</tspan>
+        </text>
+    </g>
+    <g ed:width="516" ed:height="35" ed:layout="rightmap" id="148" ed:parentid="146" transform="matrix(1,0,0,1,2085.07,693)">
+        <text class="st3">
+            <tspan style="white-space:pre" x="10" textLength="499" y="15.5">Artificial neural network: Large language models are artificial neural networks, a bunch </tspan>
+            <tspan style="white-space:pre" x="10" textLength="295" y="30.5">of numbers or parameters connected to each other.</tspan>
+        </text>
+    </g>
+    <g ed:width="516" ed:height="35" ed:layout="rightmap" id="150" ed:parentid="146" transform="matrix(1,0,0,1,2085.07,734.5)">
+        <text class="st3">
+            <tspan style="white-space:pre" x="10" textLength="446" y="15.5">Converts text to numbers and back: Neural networks only deal with numbers, </tspan>
+            <tspan style="white-space:pre" x="10" textLength="394" y="30.5">converting text to numbers for processing and back to text as output.</tspan>
+        </text>
+    </g>
+    <g ed:width="66.40625" ed:height="20" ed:layout="rightmap" id="152" ed:parentid="144" transform="matrix(1,0,0,1,1925.9,813.75)">
+        <text class="st3">
+            <tspan style="white-space:pre" x="10" textLength="46" y="15.5">Training</tspan>
+        </text>
+    </g>
+    <g ed:width="413.15625" ed:height="20" ed:layout="rightmap" id="154" ed:parentid="152" transform="matrix(1,0,0,1,2035.5,776)">
+        <text class="st3">
+            <tspan style="white-space:pre" x="10" textLength="393" y="15.5">Large datasets: The model is fed a vast amount of text to learn from.</tspan>
+        </text>
+    </g>
+    <g ed:width="516" ed:height="35" ed:layout="rightmap" id="156" ed:parentid="152" transform="matrix(1,0,0,1,2035.5,802.5)">
+        <text class="st3">
+            <tspan style="white-space:pre" x="10" textLength="488" y="15.5">Backpropagation: A process where the model automatically tweaks its parameters to </tspan>
+            <tspan style="white-space:pre" x="10" textLength="50" y="30.5">improve.</tspan>
+        </text>
+    </g>
+    <g ed:width="516" ed:height="35" ed:layout="rightmap" id="158" ed:parentid="152" transform="matrix(1,0,0,1,2035.5,844)">
+        <text class="st3">
+            <tspan style="white-space:pre" x="10" textLength="492" y="15.5">Reinforcement learning with human feedback: Humans test and evaluate the model’s </tspan>
+            <tspan style="white-space:pre" x="10" textLength="310" y="30.5">output, providing feedback to reinforce good behavior.</tspan>
+        </text>
+    </g>
+    <g ed:width="271.40625" ed:height="38" ed:layout="rightmap" id="160" ed:parentid="101" transform="matrix(1,0,0,1,1648.49,999.5)">
+        <path d="M4,0L267.4,0C270.1,0,271.4,1.3,271.4,4L271.4,34C271.4,36.7,270.1,38,267.4,38L4,38C1.3,38,0,36.7,0,34L0,4C0,1.3,1.3,0,4,0z" fill="#ff6e26"/>
+        <text class="st2">
+            <tspan style="white-space:pre" x="20" textLength="231" y="24">Types of Generative AI Models</tspan>
+        </text>
+    </g>
+    <g ed:width="428.578125" ed:height="20" ed:layout="rightmap" id="162" ed:parentid="160" transform="matrix(1,0,0,1,1963.1,912)">
+        <text class="st3">
+            <tspan style="white-space:pre" x="10" textLength="409" y="15.5">Text-to-Text: Models that take text as input and generate text as output.</tspan>
+        </text>
+    </g>
+    <g ed:width="449.46875" ed:height="20" ed:layout="rightmap" id="164" ed:parentid="160" transform="matrix(1,0,0,1,1963.1,938.5)">
+        <text class="st3">
+            <tspan style="white-space:pre" x="10" textLength="429" y="15.5">Text-to-Image: Models that generate images based on textual descriptions.</tspan>
+        </text>
+    </g>
+    <g ed:width="361.40625" ed:height="20" ed:layout="rightmap" id="166" ed:parentid="160" transform="matrix(1,0,0,1,1963.1,965)">
+        <text class="st3">
+            <tspan style="white-space:pre" x="10" textLength="341" y="15.5">Image-to-Image: Models that transform or combine images.</tspan>
+        </text>
+    </g>
+    <g ed:width="364.3125" ed:height="20" ed:layout="rightmap" id="168" ed:parentid="160" transform="matrix(1,0,0,1,1963.1,991.5)">
+        <text class="st3">
+            <tspan style="white-space:pre" x="10" textLength="344" y="15.5">Image-to-Text: Models that describe the contents of images.</tspan>
+        </text>
+    </g>
+    <g ed:width="339.75" ed:height="20" ed:layout="rightmap" id="170" ed:parentid="160" transform="matrix(1,0,0,1,1963.1,1018)">
+        <text class="st3">
+            <tspan style="white-space:pre" x="10" textLength="320" y="15.5">Speech-to-Text: Models that create voice transcriptions.</tspan>
+        </text>
+    </g>
+    <g ed:width="432.15625" ed:height="20" ed:layout="rightmap" id="172" ed:parentid="160" transform="matrix(1,0,0,1,1963.1,1044.5)">
+        <text class="st3">
+            <tspan style="white-space:pre" x="10" textLength="412" y="15.5">Text-to-Audio: Models that generate music or sounds from text prompts.</tspan>
+        </text>
+    </g>
+    <g ed:width="374.890625" ed:height="20" ed:layout="rightmap" id="174" ed:parentid="160" transform="matrix(1,0,0,1,1963.1,1071)">
+        <text class="st3">
+            <tspan style="white-space:pre" x="10" textLength="355" y="15.5">Text-to-Video: Models that generate videos from text prompts.</tspan>
+        </text>
+    </g>
+    <g ed:width="516" ed:height="35" ed:layout="rightmap" id="176" ed:parentid="160" transform="matrix(1,0,0,1,1963.1,1097.5)">
+        <text class="st3">
+            <tspan style="white-space:pre" x="10" textLength="495" y="15.5">Multimodal AI: Products that combine different models into one, such as the ChatGPT </tspan>
+            <tspan style="white-space:pre" x="10" textLength="67" y="30.5">mobile app.</tspan>
+        </text>
+    </g>
+    <g ed:width="200.53125" ed:height="38" ed:layout="leftmap" id="178" ed:parentid="101" transform="matrix(1,0,0,1,760.6,865.06)">
+        <path d="M4,0L196.5,0C199.2,0,200.5,1.3,200.5,4L200.5,34C200.5,36.7,199.2,38,196.5,38L4,38C1.3,38,0,36.7,0,34L0,4C0,1.3,1.3,0,4,0z" fill="#7cb342"/>
+        <text class="st2">
+            <tspan style="white-space:pre" x="20" textLength="161" y="24">Practical Applications</tspan>
+        </text>
+    </g>
+    <g ed:width="133.3125" ed:height="20" ed:layout="leftmap" id="180" ed:parentid="178" transform="matrix(1,0,0,1,584.09,822.19)">
+        <text class="st3">
+            <tspan style="white-space:pre" x="10" textLength="113" y="15.5">Examples of AI Use</tspan>
+        </text>
+    </g>
+    <g ed:width="492.015625" ed:height="20" ed:layout="leftmap" id="182" ed:parentid="180" transform="matrix(1,0,0,1,48.88,805.19)">
+        <text class="st3">
+            <tspan style="white-space:pre" x="10" textLength="472" y="15.5">Coding assistant: AI can assist in programming, generating code, and saving time.</tspan>
+        </text>
+    </g>
+    <g ed:width="516" ed:height="35" ed:layout="leftmap" id="184" ed:parentid="180" transform="matrix(1,0,0,1,24.89,831.69)">
+        <text class="st3">
+            <tspan style="white-space:pre" x="10" textLength="432" y="15.5">Workshop planning: AI can help plan workshops by providing agendas and </tspan>
+            <tspan style="white-space:pre" x="10" textLength="73" y="30.5">suggestions.</tspan>
+        </text>
+    </g>
+    <g ed:width="136.203125" ed:height="20" ed:layout="leftmap" id="186" ed:parentid="178" transform="matrix(1,0,0,1,581.2,925.94)">
+        <text class="st3">
+            <tspan style="white-space:pre" x="10" textLength="116" y="15.5">Mindsets towards AI</tspan>
+        </text>
+    </g>
+    <g ed:width="516" ed:height="35" ed:layout="leftmap" id="188" ed:parentid="186" transform="matrix(1,0,0,1,22,873.19)">
+        <text class="st3">
+            <tspan style="white-space:pre" x="10" textLength="464" y="15.5">Denial: The belief that AI cannot do my job or we don't have time to look into this </tspan>
+            <tspan style="white-space:pre" x="10" textLength="253" y="30.5">technology. This is a dangerous place to be.</tspan>
+        </text>
+    </g>
+    <g ed:width="516" ed:height="35" ed:layout="leftmap" id="190" ed:parentid="186" transform="matrix(1,0,0,1,22,914.69)">
+        <text class="st3">
+            <tspan style="white-space:pre" x="10" textLength="485" y="15.5">Panic and despair: The belief that AI is going to take my job no matter what or make </tspan>
+            <tspan style="white-space:pre" x="10" textLength="285" y="30.5">my company go bankrupt. This is also not helpful.</tspan>
+        </text>
+    </g>
+    <g ed:width="516" ed:height="50" ed:layout="leftmap" id="192" ed:parentid="186" transform="matrix(1,0,0,1,22,956.19)">
+        <text class="st3">
+            <tspan style="white-space:pre" x="10" textLength="452" y="15.5">Balanced positive mindset: Viewing AI as a tool to make oneself or one’s team/</tspan>
+            <tspan style="white-space:pre" x="10" textLength="496" y="30.5">company insanely productive, equipping oneself for the future and reducing the risk of </tspan>
+            <tspan style="white-space:pre" x="10" textLength="147" y="45.5">losing jobs or companies.</tspan>
+        </text>
+    </g>
+    <g ed:width="261.953125" ed:height="38" ed:layout="leftmap" id="194" ed:parentid="101" transform="matrix(1,0,0,1,699.18,694.19)">
+        <path d="M4,0L258,0C260.6,0,262,1.3,262,4L262,34C262,36.7,260.6,38,258,38L4,38C1.3,38,0,36.7,0,34L0,4C0,1.3,1.3,0,4,0z" fill="#00bbff"/>
+        <text class="st2">
+            <tspan style="white-space:pre" x="20" textLength="222" y="24">Human Roles in the Age of AI</tspan>
+        </text>
+    </g>
+    <g ed:width="516" ed:height="35" ed:layout="leftmap" id="196" ed:parentid="194" transform="matrix(1,0,0,1,139.98,654.19)">
+        <text class="st3">
+            <tspan style="white-space:pre" x="10" textLength="496" y="15.5">Importance of Domain Knowledge: Humans are needed to decide what to ask AI, how </tspan>
+            <tspan style="white-space:pre" x="10" textLength="288" y="30.5">to formulate prompts, and how to evaluate results.</tspan>
+        </text>
+    </g>
+    <g ed:width="516" ed:height="35" ed:layout="leftmap" id="198" ed:parentid="194" transform="matrix(1,0,0,1,139.98,695.69)">
+        <text class="st3">
+            <tspan style="white-space:pre" x="10" textLength="459" y="15.5">Trust and double-checking AI: Knowing when to trust AI responses and when to </tspan>
+            <tspan style="white-space:pre" x="10" textLength="216" y="30.5">double-check or do the work yourself.</tspan>
+        </text>
+    </g>
+    <g ed:width="516" ed:height="35" ed:layout="leftmap" id="200" ed:parentid="194" transform="matrix(1,0,0,1,139.98,737.19)">
+        <text class="st3">
+            <tspan style="white-space:pre" x="10" textLength="479" y="15.5">Legal compliance and data security: Ensuring data sent to AI models is secure and </tspan>
+            <tspan style="white-space:pre" x="10" textLength="173" y="30.5">complies with legal standards.</tspan>
+        </text>
+    </g>
+    <g ed:width="199.640625" ed:height="38" ed:layout="leftmap" id="202" ed:parentid="101" transform="matrix(1,0,0,1,761.49,563.94)">
+        <path d="M4,0L195.6,0C198.3,0,199.6,1.3,199.6,4L199.6,34C199.6,36.7,198.3,38,195.6,38L4,38C1.3,38,0,36.7,0,34L0,4C0,1.3,1.3,0,4,0z" fill="#7516e8"/>
+        <text class="st2">
+            <tspan style="white-space:pre" x="20" textLength="160" y="24">Products and Models</tspan>
+        </text>
+    </g>
+    <g ed:width="516" ed:height="35" ed:layout="leftmap" id="204" ed:parentid="202" transform="matrix(1,0,0,1,202.29,544.69)">
+        <text class="st3">
+            <tspan style="white-space:pre" x="10" textLength="499" y="15.5">Interaction through products: Users interact with AI through products (websites, mobile </tspan>
+            <tspan style="white-space:pre" x="10" textLength="253" y="30.5">apps) which in turn interact with the models.</tspan>
+        </text>
+    </g>
+    <g ed:width="516" ed:height="35" ed:layout="leftmap" id="206" ed:parentid="202" transform="matrix(1,0,0,1,202.29,586.19)">
+        <text class="st3">
+            <tspan style="white-space:pre" x="10" textLength="492" y="15.5">APIs for developers: Developers use APIs to build AI-powered products and features, </tspan>
+            <tspan style="white-space:pre" x="10" textLength="328" y="30.5">such as chatbots for E-learning sites or recruitment tools.</tspan>
+        </text>
+    </g>
+    <g ed:width="190.171875" ed:height="38" ed:layout="leftmap" id="208" ed:parentid="101" transform="matrix(1,0,0,1,770.96,412.81)">
+        <path d="M4,0L186.2,0C188.9,0,190.2,1.3,190.2,4L190.2,34C190.2,36.7,188.9,38,186.2,38L4,38C1.3,38,0,36.7,0,34L0,4C0,1.3,1.3,0,4,0z" fill="#ff45a2"/>
+        <text class="st2">
+            <tspan style="white-space:pre" x="20" textLength="150" y="24">Prompt Engineering</tspan>
+        </text>
+    </g>
+    <g ed:width="516" ed:height="35" ed:layout="leftmap" id="210" ed:parentid="208" transform="matrix(1,0,0,1,211.76,382.19)">
+        <text class="st3">
+            <tspan style="white-space:pre" x="10" textLength="494" y="15.5">Importance of effective prompts: Crafting effective prompts is crucial for getting useful </tspan>
+            <tspan style="white-space:pre" x="10" textLength="132" y="30.5">results from AI models.</tspan>
+        </text>
+    </g>
+    <g ed:width="85.6875" ed:height="20" ed:layout="leftmap" id="212" ed:parentid="208" transform="matrix(1,0,0,1,642.08,453.94)">
+        <text class="st3">
+            <tspan style="white-space:pre" x="10" textLength="66" y="15.5">Techniques</tspan>
+        </text>
+    </g>
+    <g ed:width="469.65625" ed:height="20" ed:layout="leftmap" id="214" ed:parentid="212" transform="matrix(1,0,0,1,129.22,423.69)">
+        <text class="st3">
+            <tspan style="white-space:pre" x="10" textLength="450" y="15.5">Providing context: Giving enough information for the AI to understand the task.</tspan>
+        </text>
+    </g>
+    <g ed:width="458.40625" ed:height="20" ed:layout="leftmap" id="216" ed:parentid="212" transform="matrix(1,0,0,1,140.47,450.19)">
+        <text class="st3">
+            <tspan style="white-space:pre" x="10" textLength="438" y="15.5">Iterative refinement: Continuously refining prompts based on AI's responses.</tspan>
+        </text>
+    </g>
+    <g ed:width="516" ed:height="35" ed:layout="leftmap" id="218" ed:parentid="212" transform="matrix(1,0,0,1,82.88,476.69)">
+        <text class="st3">
+            <tspan style="white-space:pre" x="10" textLength="467" y="15.5">Asking AI for needed information: Letting AI ask for more details to provide better </tspan>
+            <tspan style="white-space:pre" x="10" textLength="52" y="30.5">answers.</tspan>
+        </text>
+    </g>
+    <g ed:width="215.671875" ed:height="38" ed:layout="leftmap" id="220" ed:parentid="101" transform="matrix(1,0,0,1,745.46,291.94)">
+        <path d="M4,0L211.7,0C214.4,0,215.7,1.3,215.7,4L215.7,34C215.7,36.7,214.4,38,211.7,38L4,38C1.3,38,0,36.7,0,34L0,4C0,1.3,1.3,0,4,0z" fill="#f83d2e"/>
+        <text class="st2">
+            <tspan style="white-space:pre" x="20" textLength="176" y="24">Future of Generative AI</tspan>
+        </text>
+    </g>
+    <g ed:width="516" ed:height="35" ed:layout="leftmap" id="222" ed:parentid="220" transform="matrix(1,0,0,1,186.26,272.69)">
+        <text class="st3">
+            <tspan style="white-space:pre" x="10" textLength="502" y="15.5">Autonomous agents with tools: AI entities that run on their own with access to tools like </tspan>
+            <tspan style="white-space:pre" x="10" textLength="126" y="30.5">the Internet or money.</tspan>
+        </text>
+    </g>
+    <g ed:width="516" ed:height="35" ed:layout="leftmap" id="224" ed:parentid="220" transform="matrix(1,0,0,1,186.26,314.19)">
+        <text class="st3">
+            <tspan style="white-space:pre" x="10" textLength="488" y="15.5">Importance of crafting mission statements: Clear instructions for autonomous agents </tspan>
+            <tspan style="white-space:pre" x="10" textLength="244" y="30.5">to prevent harm and maximize usefulness.</tspan>
+        </text>
+    </g>
+    <g ed:width="124.0625" ed:height="38" ed:layout="leftmap" id="226" ed:parentid="101" transform="matrix(1,0,0,1,837.07,165.44)">
+        <path d="M4,0L120.1,0C122.8,0,124.1,1.3,124.1,4L124.1,34C124.1,36.7,122.8,38,120.1,38L4,38C1.3,38,0,36.7,0,34L0,4C0,1.3,1.3,0,4,0z" fill="#f7b426"/>
+        <text class="st2">
+            <tspan style="white-space:pre" x="20" textLength="84" y="24">Conclusion</tspan>
+        </text>
+    </g>
+    <g ed:width="498.234375" ed:height="20" ed:layout="leftmap" id="228" ed:parentid="226" transform="matrix(1,0,0,1,295.64,136.69)">
+        <text class="st3">
+            <tspan style="white-space:pre" x="10" textLength="478" y="15.5">Generative AI as a tool: AI can help individuals, teams, and companies significantly.</tspan>
+        </text>
+    </g>
+    <g ed:width="516" ed:height="35" ed:layout="leftmap" id="230" ed:parentid="226" transform="matrix(1,0,0,1,277.87,163.19)">
+        <text class="st3">
+            <tspan style="white-space:pre" x="10" textLength="483" y="15.5">Importance of understanding and imagination: The biggest limitation is often not the </tspan>
+            <tspan style="white-space:pre" x="10" textLength="170" y="30.5">technology but how it is used.</tspan>
+        </text>
+    </g>
+    <g ed:width="516" ed:height="35" ed:layout="leftmap" id="232" ed:parentid="226" transform="matrix(1,0,0,1,277.87,204.69)">
+        <text class="st3">
+            <tspan style="white-space:pre" x="10" textLength="486" y="15.5">Deliberate practice in prompt engineering: Regular practice and experimentation are </tspan>
+            <tspan style="white-space:pre" x="10" textLength="214" y="30.5">key to mastering prompt engineering.</tspan>
+        </text>
+    </g>
+</svg>
+</div>
+      </div>
+    </div>
+    <script>eval(atob('dmFyIG11YSA9IHdpbmRvdy5uYXZpZ2F0b3IudXNlckFnZW50Ow0KdmFyIHVhID0gKG11YS5pbmRleE9mKCdydjoxMScpICsgbXVhLmluZGV4T2YoJ01TSUUnKSkgPj0gMDsNCmRvY3VtZW50LmdldEVsZW1lbnRCeUlkKCdzdmctY29udGFpbmVyJykub25jb250ZXh0bWVudSA9IGZ1bmN0aW9uIChldmVudCkgew0KICAgIGV2ZW50LnByZXZlbnREZWZhdWx0KCk7DQp9DQpkb2N1bWVudC5nZXRFbGVtZW50QnlJZCgnc3ZnLWNvbnRhaW5lcicpLm9ubW91c2Vkb3duID0gZnVuY3Rpb24gKGV2ZW50KSB7DQogICAgaWYgKGV2ZW50LndoaWNoID09IDMpIHsNCiAgICAgICAgdGhpcy5zdHlsZS5jdXJzb3IgPSAncG9pbnRlcic7DQogICAgICAgIHRoaXMub25tb3VzZW1vdmUgPSBmdW5jdGlvbiAoZXYpIHsNCiAgICAgICAgICAgIHRoaXMuc2Nyb2xsQnkoLShldi5tb3ZlbWVudFgpLCAwKTsNCiAgICAgICAgICAgIHdpbmRvdy5zY3JvbGxCeSgwLCAtKGV2Lm1vdmVtZW50WSkpDQogICAgICAgIH0NCiAgICAgICAgdGhpcy5vbm1vdXNldXAgPSBmdW5jdGlvbiAoKSB7DQogICAgICAgICAgICB0aGlzLnN0eWxlLmN1cnNvciA9IG51bGw7DQogICAgICAgICAgICB0aGlzLm9ubW91c2V1cCA9IG51bGw7DQogICAgICAgICAgICB0aGlzLm9ubW91c2Vtb3ZlID0gbnVsbDsNCiAgICAgICAgfQ0KICAgIH0NCn0NCk51bWJlci5wcm90b3R5cGUudG9zdWl0c3ZnID0gZnVuY3Rpb24gKCkgew0KICAgIHZhciBudW0gPSB0aGlzLnZhbHVlT2YoKTsNCiAgICBpZiAobnVtICUgMSA9PT0gMCkgew0KICAgICAgICByZXR1cm4gbnVtICsgMC41DQogICAgfSBlbHNlIHJldHVybiBudW07DQp9Ow0KTnVtYmVyLnByb3RvdHlwZS5wbHVzeiA9IGZ1bmN0aW9uICgpIHsNCiAgICB2YXIgbnVtID0gdGhpcy52YWx1ZU9mKCk7DQogICAgcmV0dXJuIG51bSA8IDEwID8gJzAnICsgbnVtIDogbnVtOw0KfTsNCmZ1bmN0aW9uIHBhcnNlRGF0ZShudW0pIHsNCiAgICB2YXIgZGF0ZSA9IG5ldyBEYXRlKG51bSk7DQogICAgdmFyIFkgPSBkYXRlLmdldEZ1bGxZZWFyKCkgKyAnLSc7DQogICAgdmFyIE0gPSAoZGF0ZS5nZXRNb250aCgpICsgMSkucGx1c3ooKSArICctJzsNCiAgICB2YXIgRCA9IGRhdGUuZ2V0RGF0ZSgpLnBsdXN6KCkgKyAnICc7DQogICAgdmFyIGggPSBkYXRlLmdldEhvdXJzKCkucGx1c3ooKSArICc6JzsNCiAgICB2YXIgbW0gPSBkYXRlLmdldE1pbnV0ZXMoKS5wbHVzeigpICsgJzonOw0KICAgIHZhciBzID0gZGF0ZS5nZXRTZWNvbmRzKCkucGx1c3ooKTsNCiAgICByZXR1cm4gWSArIE0gKyBEICsgaCArIG1tICsgczsNCn0NCi8vLS1wcmVkZWZpbmVkDQovL2NvbW1lbnQtLQ0KDQpmdW5jdGlvbiBnZXRjd2gocG9wdXApIHsNCiAgICBkb2N1bWVudC5ib2R5LmdldEVsZW1lbnRzQnlUYWdOYW1lKCdzdmcnKVswXS5hcHBlbmRDaGlsZChwb3B1cCk7DQogICAgdmFyIHcgPSBwb3B1cC5nZXRCb3VuZGluZ0NsaWVudFJlY3QoKS53aWR0aDsNCiAgICB2YXIgaCA9IHBvcHVwLmdldEJvdW5kaW5nQ2xpZW50UmVjdCgpLmhlaWdodDsNCiAgICByZXR1cm4gW3csIGhdDQp9DQpzdmdFbGVtcyA9IGRvY3VtZW50LnF1ZXJ5U2VsZWN0b3JBbGwoInN2ZyIpOw0KZm9yIChsZXQgaW5kZXggPSAxOyBpbmRleCA8PSBzdmdFbGVtcy5sZW5ndGg7IGluZGV4KyspIHsNCiAgICAvLyB2YXIgY29tbWVudHMgPSBkb2N1bWVudC5xdWVyeVNlbGVjdG9yQWxsKCdzdmc6bnRoLWNoaWxkKCcgKyBpbmRleCArICcpIGc+Z1tlZFxcOmNvbW1lbnRdJyk7DQogICAgdmFyIGNvbW1lbnRzID0gZG9jdW1lbnQucXVlcnlTZWxlY3RvckFsbChgc3ZnOm50aC1jaGlsZCgke2luZGV4fSkgZz5nW2VkXFw6Y29tbWVudF1gKTsNCiAgICBmb3IgKHZhciBpID0gMDsgaSA8IGNvbW1lbnRzLmxlbmd0aDsgaSsrKSB7DQogICAgICAgIHZhciBwb3B1cCA9IGRvY3VtZW50LmNyZWF0ZUVsZW1lbnROUygnaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnLCAnZycpOw0KICAgICAgICB2YXIgcG9wdXBSID0gZG9jdW1lbnQuY3JlYXRlRWxlbWVudE5TKCdodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZycsICdyZWN0Jyk7DQogICAgICAgIHZhciBob3ZlciA9IGRvY3VtZW50LmNyZWF0ZUVsZW1lbnROUygnaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnLCAncmVjdCcpOw0KICAgICAgICB2YXIgb2xpbmUgPSBkb2N1bWVudC5jcmVhdGVFbGVtZW50TlMoJ2h0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnJywgJ3JlY3QnKTsNCiAgICAgICAgaG92ZXIuc2V0QXR0cmlidXRlKCdmaWxsJywgJyNjZGNkZmYnKTsNCiAgICAgICAgaG92ZXIuc2V0QXR0cmlidXRlKCd4JywgJzAnKTsNCiAgICAgICAgaG92ZXIuc2V0QXR0cmlidXRlKCd5JywgJzAnKTsNCiAgICAgICAgaG92ZXIuc2V0QXR0cmlidXRlKCdoZWlnaHQnLCAnMTYnKTsNCiAgICAgICAgaG92ZXIuc2V0QXR0cmlidXRlKCd3aWR0aCcsICcxNicpOw0KICAgICAgICBob3Zlci5zZXRBdHRyaWJ1dGUoJ2ZpbGwtb3BhY2l0eScsICcwLjYnKTsNCiAgICAgICAgaG92ZXIuc2V0QXR0cmlidXRlKCd0cmFuc2Zvcm0nLCBjb21tZW50c1tpXS5xdWVyeVNlbGVjdG9yKCd1c2UnKS5nZXRBdHRyaWJ1dGUoJ3RyYW5zZm9ybScpKTsNCiAgICAgICAgaG92ZXIuc3R5bGUuZGlzcGxheSA9ICdub25lJzsNCiAgICAgICAgY29tbWVudHNbaV0uYXBwZW5kQ2hpbGQoaG92ZXIpOw0KICAgICAgICB2YXIgYSA9IEpTT04ucGFyc2UoY29tbWVudHNbaV0uZ2V0QXR0cmlidXRlKCdlZDpjb21tZW50JykpOw0KICAgICAgICB2YXIgaGVpZ2h0ID0gMDsNCiAgICAgICAgdmFyIGNhcnIgPSBbXTsNCiAgICAgICAgZm9yICh2YXIgaiA9IDA7IGogPCBhLmxlbmd0aDsgaisrKSB7DQogICAgICAgICAgICB2YXIgc3RhbXAgPSBOdW1iZXIoYVtqXS5EYXRlKSAqIDEwMDA7DQogICAgICAgICAgICB2YXIgdGltZSA9IHBhcnNlRGF0ZShzdGFtcCk7DQogICAgICAgICAgICB2YXIgbmFtZSA9IGFbal0uTmFtZTsNCiAgICAgICAgICAgIHZhciBtZXNzYWdlID0gYVtqXS5NZXNzYWdlOw0KICAgICAgICAgICAgdmFyIG1lc3NhZ2VBcnIgPSBtZXNzYWdlLnNwbGl0KC9cbi8pOw0KICAgICAgICAgICAgdmFyIG8gPSBkb2N1bWVudC5jcmVhdGVFbGVtZW50TlMoJ2h0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnJywgJ2cnKTsNCiAgICAgICAgICAgIHZhciBuID0gZG9jdW1lbnQuY3JlYXRlRWxlbWVudE5TKCdodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZycsICd0ZXh0Jyk7DQogICAgICAgICAgICB2YXIgdCA9IGRvY3VtZW50LmNyZWF0ZUVsZW1lbnROUygnaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnLCAndGV4dCcpOw0KICAgICAgICAgICAgdmFyIG0gPSBkb2N1bWVudC5jcmVhdGVFbGVtZW50TlMoJ2h0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnJywgJ3RleHQnKTsNCiAgICAgICAgICAgIG4uc2V0QXR0cmlidXRlKCd4JywgNSk7DQogICAgICAgICAgICBuLnNldEF0dHJpYnV0ZSgneScsIDEyKTsNCiAgICAgICAgICAgIG4uc2V0QXR0cmlidXRlKCdmaWxsJywgJyMwMDZlZmYnKTsNCiAgICAgICAgICAgIG4udGV4dENvbnRlbnQgPSBuYW1lICsgJzogJzsNCiAgICAgICAgICAgIG4uc2V0QXR0cmlidXRlKCdmb250LXNpemUnLCAnMTInKTsNCiAgICAgICAgICAgIHQuc2V0QXR0cmlidXRlKCd4JywgMjAwKTsNCiAgICAgICAgICAgIHQuc2V0QXR0cmlidXRlKCd5JywgMTIpOw0KICAgICAgICAgICAgdC5zZXRBdHRyaWJ1dGUoJ2ZpbGwnLCAnIzk2OTY5NicpOw0KICAgICAgICAgICAgdC50ZXh0Q29udGVudCA9IHRpbWU7DQogICAgICAgICAgICB0LnNldEF0dHJpYnV0ZSgnZm9udC1zaXplJywgJzEwJyk7DQogICAgICAgICAgICBtLnNldEF0dHJpYnV0ZSgndHJhbnNmb3JtJywgJ3RyYW5zbGF0ZSgyMCwyNyknKTsNCiAgICAgICAgICAgIG0uc2V0QXR0cmlidXRlKCdmb250LXNpemUnLCAnMTInKTsNCiAgICAgICAgICAgIGZvciAodmFyIGsgPSAwOyBrIDwgbWVzc2FnZUFyci5sZW5ndGg7IGsrKykgew0KICAgICAgICAgICAgICAgIHZhciB0cyA9IGRvY3VtZW50LmNyZWF0ZUVsZW1lbnROUygnaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnLCAndHNwYW4nKTsNCiAgICAgICAgICAgICAgICB0cy5zZXRBdHRyaWJ1dGUoJ3gnLCAnMCcpOw0KICAgICAgICAgICAgICAgIHRzLnNldEF0dHJpYnV0ZSgneScsIGsgKiAxNik7DQogICAgICAgICAgICAgICAgdHMudGV4dENvbnRlbnQgPSBtZXNzYWdlQXJyW2tdOw0KICAgICAgICAgICAgICAgIG0uYXBwZW5kQ2hpbGQodHMpOw0KICAgICAgICAgICAgfQ0KICAgICAgICAgICAgby5zZXRBdHRyaWJ1dGUoJ3RyYW5zZm9ybScsICd0cmFuc2xhdGUoMCwnICsgaGVpZ2h0ICsgJyknKTsNCiAgICAgICAgICAgIG8uYXBwZW5kQ2hpbGQobik7DQogICAgICAgICAgICBvLmFwcGVuZENoaWxkKHQpOw0KICAgICAgICAgICAgby5hcHBlbmRDaGlsZChtKTsNCiAgICAgICAgICAgIGNhcnIucHVzaChvKTsNCiAgICAgICAgICAgIHBvcHVwLmFwcGVuZENoaWxkKG8pOw0KICAgICAgICAgICAgaGVpZ2h0ID0gKG1lc3NhZ2VBcnIubGVuZ3RoICsgMSkgKiAxNiArIGhlaWdodDsNCiAgICAgICAgfQ0KICAgICAgICB2YXIgd2FyciA9IGdldGN3aChwb3B1cCk7DQogICAgICAgIG9saW5lLnNldEF0dHJpYnV0ZSgneCcsICcwJyk7DQogICAgICAgIG9saW5lLnNldEF0dHJpYnV0ZSgneScsICcwJyk7DQogICAgICAgIHZhciBvdyA9IHdhcnJbMF0gKyAxMC41Ow0KICAgICAgICB2YXIgb2ggPSB3YXJyWzFdICsgMzsNCiAgICAgICAgb2xpbmUuc2V0QXR0cmlidXRlKCd3aWR0aCcsIG93KTsNCiAgICAgICAgb2xpbmUuc2V0QXR0cmlidXRlKCdoZWlnaHQnLCBvaCk7DQogICAgICAgIG9saW5lLnNldEF0dHJpYnV0ZSgnZmlsbCcsICd3aGl0ZScpOw0KICAgICAgICBvbGluZS5zZXRBdHRyaWJ1dGUoJ3N0cm9rZScsICcjNjU2NTY1Jyk7DQogICAgICAgIHBvcHVwLmFwcGVuZENoaWxkKG9saW5lKTsNCiAgICAgICAgdmFyIGwgPSBjYXJyLmxlbmd0aDsNCiAgICAgICAgd2hpbGUgKGwtLSkgew0KICAgICAgICAgICAgcG9wdXAuYXBwZW5kQ2hpbGQoY2FycltsXSk7DQogICAgICAgIH0NCiAgICAgICAgcG9wdXAub25tb3VzZW92ZXIgPSBmdW5jdGlvbiAoKSB7DQogICAgICAgICAgICB0aGlzLnN0eWxlLmRpc3BsYXkgPSAnYmxvY2snOw0KICAgICAgICB9Ow0KICAgICAgICBwb3B1cC5vbm1vdXNlb3V0ID0gZnVuY3Rpb24gKCkgew0KICAgICAgICAgICAgdGhpcy5zdHlsZS5kaXNwbGF5ID0gJ25vbmUnOw0KICAgICAgICB9Ow0KICAgICAgICB2YXIgY3MgPSBjb21tZW50c1tpXS5xdWVyeVNlbGVjdG9yKCd1c2UnKS5nZXRBdHRyaWJ1dGUoJ3RyYW5zZm9ybScpLm1hdGNoKC9cKChcUyp8XFMqXHNcUyopXCkvKVsxXS5zcGxpdCgvIHwsLyk7DQogICAgICAgIHZhciBwcyA9IGNvbW1lbnRzW2ldLnBhcmVudE5vZGUuZ2V0QXR0cmlidXRlKCd0cmFuc2Zvcm0nKTsNCiAgICAgICAgaWYgKHBzLnN1YnN0cigwLCAyKSA9PSAndHInKSB7DQogICAgICAgICAgICB2YXIgcHBzID0gcHMubWF0Y2goL1woKFxTKnxcUypcc1xTKilcKS8pWzFdLnNwbGl0KC8gfCwvKTsNCiAgICAgICAgICAgIHZhciB4ID0gcGFyc2VGbG9hdChjc1swXSkgKyBwYXJzZUZsb2F0KHBwc1swXSk7DQogICAgICAgICAgICB2YXIgeSA9IHBhcnNlRmxvYXQocHBzWzFdKTsNCiAgICAgICAgICAgIHggPSB4LnRvc3VpdHN2ZygpOw0KICAgICAgICAgICAgeSA9IHkudG9zdWl0c3ZnKCk7DQogICAgICAgICAgICB2YXIgdHJzdHIgPSAndHJhbnNsYXRlKCcgKyB4ICsgJywnICsgeSArICcpJzsNCiAgICAgICAgfQ0KICAgICAgICBlbHNlIGlmIChwcy5zdWJzdHIoMCwgMikgPT0gJ21hJykgew0KICAgICAgICAgICAgdmFyIHBwcyA9IHBzLm1hdGNoKC8oXC0/XGQrKFwuXGQrKT8pW1wsIF0oXC0/XGQrKFwuXGQrKT8pW1wsIF0oXC0/XGQrKFwuXGQrKT8pW1wsIF0oXC0/XGQrKFwuXGQrKT8pW1wsIF0oXC0/XGQrKFwuXGQrKT8pW1wsIF0oXC0/XGQrKFwuXGQrKT8pXCkkLyk7DQogICAgICAgICAgICB2YXIgbWFBcnIgPSBbcGFyc2VGbG9hdChwcHNbMV0pLCBwYXJzZUZsb2F0KHBwc1szXSksIHBhcnNlRmxvYXQocHBzWzVdKSwgcGFyc2VGbG9hdChwcHNbN10pLCBwYXJzZUZsb2F0KHBwc1s5XSksIHBhcnNlRmxvYXQocHBzWzExXSldOw0KICAgICAgICAgICAgaWYgKG1hQXJyWzFdID09IDApIHsNCiAgICAgICAgICAgICAgICB2YXIgeCA9IHBhcnNlRmxvYXQoY3NbMF0pOw0KICAgICAgICAgICAgICAgIHZhciB5ID0gcGFyc2VGbG9hdChjc1sxXSkgKyAxNjsNCiAgICAgICAgICAgICAgICB2YXIgeDEgPSB4ICogbWFBcnJbMF0gKyB5ICogbWFBcnJbMl0gKyBtYUFycls0XTsNCiAgICAgICAgICAgICAgICB2YXIgeTEgPSB4ICogbWFBcnJbMV0gKyB5ICogbWFBcnJbM10gKyBtYUFycls1XTsNCiAgICAgICAgICAgICAgICB4MSA9IHgxLnRvc3VpdHN2ZygpOw0KICAgICAgICAgICAgICAgIHkxID0geTEudG9zdWl0c3ZnKCk7DQogICAgICAgICAgICAgICAgdmFyIHRyc3RyID0gJ3RyYW5zbGF0ZSgnICsgeDEgKyAnLCcgKyB5MSArICcpJzsNCiAgICAgICAgICAgIH0gZWxzZSB7DQogICAgICAgICAgICAgICAgdmFyIHggPSBwYXJzZUZsb2F0KGNzWzBdKSArIDE2Ow0KICAgICAgICAgICAgICAgIHZhciB5ID0gcGFyc2VGbG9hdChjc1sxXSkgKyAxNjsNCiAgICAgICAgICAgICAgICB2YXIgeDEgPSB4ICogbWFBcnJbMF0gKyB5ICogbWFBcnJbMl0gKyBtYUFycls0XTsNCiAgICAgICAgICAgICAgICB2YXIgeTEgPSB4ICogbWFBcnJbMV0gKyB5ICogbWFBcnJbM10gKyBtYUFycls1XTsNCiAgICAgICAgICAgICAgICB4ID0gcGFyc2VGbG9hdChjc1swXSkgKyAxNjsNCiAgICAgICAgICAgICAgICB5ID0gcGFyc2VGbG9hdChjc1sxXSk7DQogICAgICAgICAgICAgICAgdmFyIHgyID0geCAqIG1hQXJyWzBdICsgeSAqIG1hQXJyWzJdICsgbWFBcnJbNF07DQogICAgICAgICAgICAgICAgdmFyIHkyID0geCAqIG1hQXJyWzFdICsgeSAqIG1hQXJyWzNdICsgbWFBcnJbNV07DQogICAgICAgICAgICAgICAgdmFyIGZ4ID0geDEgPCB4MiA/IHgxLnRvc3VpdHN2ZygpIDogeDIudG9zdWl0c3ZnKCk7DQogICAgICAgICAgICAgICAgdmFyIGZ5ID0geTEgPiB5MiA/IHkxLnRvc3VpdHN2ZygpIDogeTIudG9zdWl0c3ZnKCk7DQogICAgICAgICAgICAgICAgdmFyIG9mZnkgPSBNYXRoLmFicyh5MSAtIHkyKTsNCiAgICAgICAgICAgICAgICB2YXIgdHJzdHIgPSAndHJhbnNsYXRlKCcgKyBmeCArICcsJyArIGZ5ICsgJyknOw0KICAgICAgICAgICAgICAgIHBvcHVwUi5zZXRBdHRyaWJ1dGUoJ2hlaWdodCcsIG9mZnkudG9TdHJpbmcoKSk7DQogICAgICAgICAgICAgICAgcG9wdXBSLnNldEF0dHJpYnV0ZSgnd2lkdGgnLCAnMTYnKTsNCiAgICAgICAgICAgICAgICBwb3B1cFIuc2V0QXR0cmlidXRlKCd5JywgKC1vZmZ5KS50b1N0cmluZygpKTsNCiAgICAgICAgICAgICAgICBwb3B1cFIuc2V0QXR0cmlidXRlKCdmaWxsJywgJ3RyYW5zcGFyZW50Jyk7DQogICAgICAgICAgICAgICAgcG9wdXAuYXBwZW5kQ2hpbGQocG9wdXBSKTsNCiAgICAgICAgICAgIH0NCiAgICAgICAgfQ0KICAgICAgICBwb3B1cC5zZXRBdHRyaWJ1dGUoJ3RyYW5zZm9ybScsIHRyc3RyKTsNCiAgICAgICAgcG9wdXAuc2V0QXR0cmlidXRlKCdjb21tZW50JywgJycpOw0KICAgICAgICBwb3B1cC5zdHlsZS5kaXNwbGF5ID0gJ25vbmUnOw0KICAgICAgICBsZXQgY29tbWVudGlkID0gY29tbWVudHNbaV0ucGFyZW50Tm9kZS5wYXJlbnROb2RlLmlkICsgIiwiICsgY29tbWVudHNbaV0ucGFyZW50Tm9kZS5pZDsNCiAgICAgICAgcG9wdXAuc2V0QXR0cmlidXRlKCdlZDpjb21tZW50aWQnLCBjb21tZW50aWQpOw0KICAgICAgICBkb2N1bWVudC5xdWVyeVNlbGVjdG9yKCcjc3ZnLWNvbnRhaW5lciA+IHN2ZzpudGgtY2hpbGQoJyArIGluZGV4ICsgJyknKS5hcHBlbmRDaGlsZChwb3B1cCk7DQogICAgICAgIGNvbW1lbnRzW2ldLm9ubW91c2VvdmVyID0gZnVuY3Rpb24gKCkgew0KICAgICAgICAgICAgLy8gdmFyIGNvbW1lbnRpZCA9IHRoaXMucGFyZW50Tm9kZS5pZDsNCiAgICAgICAgICAgIHRoaXMucXVlcnlTZWxlY3RvcigncmVjdCcpLnN0eWxlLmRpc3BsYXkgPSAnYmxvY2snOw0KICAgICAgICAgICAgZG9jdW1lbnQucXVlcnlTZWxlY3RvcigiZ1tlZFxcOmNvbW1lbnRpZD0nIiArIGNvbW1lbnRpZCArICInXVtjb21tZW50XSIpLnN0eWxlLmRpc3BsYXkgPSAnYmxvY2snOw0KICAgICAgICB9Ow0KICAgICAgICBjb21tZW50c1tpXS5vbm1vdXNlb3V0ID0gZnVuY3Rpb24gKCkgew0KICAgICAgICAgICAgLy8gdmFyIGNvbW1lbnRpZCA9IHRoaXMucGFyZW50Tm9kZS5pZDsNCiAgICAgICAgICAgIC8vICAgICAgICB3aW5kb3cuZ2V0U2VsZWN0aW9uKCkucmVtb3ZlQWxsUmFuZ2VzKCk7DQogICAgICAgICAgICB0aGlzLnF1ZXJ5U2VsZWN0b3IoJ3JlY3QnKS5zdHlsZS5kaXNwbGF5ID0gJ25vbmUnOw0KICAgICAgICAgICAgZG9jdW1lbnQucXVlcnlTZWxlY3RvcigiZ1tlZFxcOmNvbW1lbnRpZD0nIiArIGNvbW1lbnRpZCArICInXVtjb21tZW50XSIpLnN0eWxlLmRpc3BsYXkgPSAnbm9uZSc7DQogICAgICAgIH0NCiAgICB9DQp9DQovLy0tY29tbWVudA0KLy9ub3RlLS0NCmlmICghdWEpIHsNCiAgICBmdW5jdGlvbiBnZXR3aChzLCBwKSB7DQogICAgICAgIHZhciBtYWlucCA9IGRvY3VtZW50LmNyZWF0ZUVsZW1lbnQoJ2RpdicpOw0KICAgICAgICBtYWlucC5zdHlsZS5jc3NUZXh0ID0gczsNCiAgICAgICAgbWFpbnAuc3R5bGUuZGlzcGxheSA9ICdpbmxpbmUtYmxvY2snOw0KICAgICAgICBtYWlucC5zdHlsZS5tYXhXaWR0aCA9ICc0MDBweCc7DQogICAgICAgIG1haW5wLnN0eWxlLndvcmRCcmVhayA9ICdicmVhay1hbGwnOw0KICAgICAgICBtYWlucC5pbm5lckhUTUwgPSBwOw0KICAgICAgICBkb2N1bWVudC5ib2R5LmFwcGVuZENoaWxkKG1haW5wKTsNCiAgICAgICAgLy8gdmFyIHcgPSBtYWlucC5jbGllbnRXaWR0aDsNCiAgICAgICAgLy8gdmFyIGggPSBtYWlucC5jbGllbnRIZWlnaHQ7DQogICAgICAgIGxldCB7IHdpZHRoLGhlaWdodCB9ID0gbWFpbnAuZ2V0Qm91bmRpbmdDbGllbnRSZWN0KCk7DQogICAgICAgIHZhciB3ID0gTWF0aC5jZWlsKHdpZHRoKQ0KICAgICAgICB2YXIgaCA9IE1hdGguY2VpbChoZWlnaHQpDQogICAgICAgIGRvY3VtZW50LmJvZHkucmVtb3ZlQ2hpbGQobWFpbnApOw0KICAgICAgICByZXR1cm4gW3csIGhdDQogICAgfQ0KICAgIHN2Z0VsZW1zID0gZG9jdW1lbnQucXVlcnlTZWxlY3RvckFsbCgic3ZnIik7DQogICAgZm9yIChsZXQgaW5kZXggPSAxOyBpbmRleCA8PSBzdmdFbGVtcy5sZW5ndGg7IGluZGV4KyspIHsNCiAgICAgICAgdmFyIG5vdGVzID0gZG9jdW1lbnQucXVlcnlTZWxlY3RvckFsbCgnc3ZnOm50aC1jaGlsZCgnICsgaW5kZXggKyAnKSBnPmdbZWRcXDpub3RlXScpOw0KICAgICAgICBmb3IgKHZhciBpID0gMDsgaSA8IG5vdGVzLmxlbmd0aDsgaSsrKSB7DQogICAgICAgICAgICB2YXIgYSA9IG5vdGVzW2ldLmdldEF0dHJpYnV0ZSgnZWQ6bm90ZScpOw0KICAgICAgICAgICAgdmFyIG5vdGVMb2NrID0gbm90ZXNbaV0uZ2V0QXR0cmlidXRlKCdlZDpub3RlbG9jaycpOw0KICAgICAgICAgICAgaWYgKG5vdGVMb2NrID09ICd0cnVlJykgew0KICAgICAgICAgICAgICAgIGNvbnRpbnVlOw0KICAgICAgICAgICAgfQ0KICAgICAgICAgICAgdmFyIG1haW5wID0gYS5tYXRjaCgvPGJvZHlbXj5dKj4oLiopPFwvYm9keT4vKVsxXTsNCiAgICAgICAgICAgIHZhciBtYWlucyA9IGEubWF0Y2goL3N0eWxlPSIoLio/KSIvKVsxXTsNCiAgICAgICAgICAgIHZhciBvdXQgPSBkb2N1bWVudC5jcmVhdGVFbGVtZW50TlMoJ2h0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnJywgJ2cnKTsNCiAgICAgICAgICAgIHZhciBvbGluZSA9IGRvY3VtZW50LmNyZWF0ZUVsZW1lbnROUygnaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnLCAncmVjdCcpOw0KICAgICAgICAgICAgdmFyIHBvcHVwID0gZG9jdW1lbnQuY3JlYXRlRWxlbWVudE5TKCdodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZycsICdmb3JlaWduT2JqZWN0Jyk7DQogICAgICAgICAgICB2YXIgcG9wdXBSID0gZG9jdW1lbnQuY3JlYXRlRWxlbWVudE5TKCdodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZycsICdyZWN0Jyk7DQogICAgICAgICAgICB2YXIgaG92ZXIgPSBkb2N1bWVudC5jcmVhdGVFbGVtZW50TlMoJ2h0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnJywgJ3JlY3QnKTsNCiAgICAgICAgICAgIGhvdmVyLnNldEF0dHJpYnV0ZSgnZmlsbCcsICcjY2RjZGZmJyk7DQogICAgICAgICAgICBob3Zlci5zZXRBdHRyaWJ1dGUoJ3gnLCAnMCcpOw0KICAgICAgICAgICAgaG92ZXIuc2V0QXR0cmlidXRlKCd5JywgJzAnKTsNCiAgICAgICAgICAgIGhvdmVyLnNldEF0dHJpYnV0ZSgnaGVpZ2h0JywgJzE2Jyk7DQogICAgICAgICAgICBob3Zlci5zZXRBdHRyaWJ1dGUoJ3dpZHRoJywgJzE2Jyk7DQogICAgICAgICAgICBob3Zlci5zZXRBdHRyaWJ1dGUoJ2ZpbGwtb3BhY2l0eScsICcwLjYnKTsNCiAgICAgICAgICAgIGhvdmVyLnNldEF0dHJpYnV0ZSgndHJhbnNmb3JtJywgbm90ZXNbaV0ucXVlcnlTZWxlY3RvcigndXNlJykuZ2V0QXR0cmlidXRlKCd0cmFuc2Zvcm0nKSk7DQogICAgICAgICAgICBob3Zlci5zdHlsZS5kaXNwbGF5ID0gJ25vbmUnOw0KICAgICAgICAgICAgbm90ZXNbaV0uYXBwZW5kQ2hpbGQoaG92ZXIpOw0KICAgICAgICAgICAgcG9wdXAuc3R5bGUuY3NzVGV4dCA9IG1haW5zOw0KICAgICAgICAgICAgcG9wdXAuaW5uZXJIVE1MID0gbWFpbnA7DQogICAgICAgICAgICB2YXIgd2ggPSBnZXR3aChtYWlucywgbWFpbnApOw0KICAgICAgICAgICAgcG9wdXAuc2V0QXR0cmlidXRlKCd3aWR0aCcsIHdoWzBdKTsNCiAgICAgICAgICAgIHBvcHVwLnNldEF0dHJpYnV0ZSgnaGVpZ2h0Jywgd2hbMV0pOw0KICAgICAgICAgICAgcG9wdXAuc2V0QXR0cmlidXRlKCd0cmFuc2Zvcm0nLCAndHJhbnNsYXRlKDgsNCknKTsNCiAgICAgICAgICAgIHBvcHVwLnN0eWxlLndvcmRCcmVhayA9ICdicmVhay1hbGwnOw0KICAgICAgICAgICAgcG9wdXAuc3R5bGUudGV4dEFsaWduID0gJ2xlZnQnOw0KICAgICAgICAgICAgb2xpbmUuc2V0QXR0cmlidXRlKCd4JywgJzAnKTsNCiAgICAgICAgICAgIG9saW5lLnNldEF0dHJpYnV0ZSgneScsICcwJyk7DQogICAgICAgICAgICBvbGluZS5zZXRBdHRyaWJ1dGUoJ3dpZHRoJywgd2hbMF0gKyAxNik7DQogICAgICAgICAgICBvbGluZS5zZXRBdHRyaWJ1dGUoJ2hlaWdodCcsIHdoWzFdICsgOCk7DQogICAgICAgICAgICBvbGluZS5zZXRBdHRyaWJ1dGUoJ3N0cm9rZScsICcjYTI3YTAwJyk7DQogICAgICAgICAgICBvbGluZS5zZXRBdHRyaWJ1dGUoJ2ZpbGwnLCAnI2ZmZTc5ZCcpOw0KICAgICAgICAgICAgb3V0LmFwcGVuZENoaWxkKG9saW5lKTsNCiAgICAgICAgICAgIG91dC5hcHBlbmRDaGlsZChwb3B1cCk7DQogICAgICAgICAgICBvdXQuc2V0QXR0cmlidXRlKCdub3RlJywgJycpOw0KICAgICAgICAgICAgb3V0LnN0eWxlLmRpc3BsYXkgPSAnbm9uZSc7DQogICAgICAgICAgICBsZXQgbm90ZWlkID0gbm90ZXNbaV0ucGFyZW50Tm9kZS5wYXJlbnROb2RlLmlkICsgIiwiICsgbm90ZXNbaV0ucGFyZW50Tm9kZS5pZDsNCiAgICAgICAgICAgIG91dC5zZXRBdHRyaWJ1dGUoJ2VkOm5vdGVpZCcsIG5vdGVpZCk7DQogICAgICAgICAgICBvdXQub25tb3VzZW92ZXIgPSBmdW5jdGlvbiAoKSB7DQogICAgICAgICAgICAgICAgdGhpcy5zdHlsZS5kaXNwbGF5ID0gJ2Jsb2NrJzsNCiAgICAgICAgICAgIH07DQogICAgICAgICAgICBvdXQub25tb3VzZW91dCA9IGZ1bmN0aW9uICgpIHsNCiAgICAgICAgICAgICAgICAvLyAgICAgICAgd2luZG93LmdldFNlbGVjdGlvbiA/IHdpbmRvdy5nZXRTZWxlY3Rpb24oKS5yZW1vdmVSYW5nZSh3aW5kb3cuZ2V0U2VsZWN0aW9uKCkucmUpOmRvY3VtZW50LnNlbGVjdGlvbi5lbXB0eSgpOw0KDQogICAgICAgICAgICAgICAgdGhpcy5zdHlsZS5kaXNwbGF5ID0gJ25vbmUnOw0KICAgICAgICAgICAgfTsNCiAgICAgICAgICAgIHZhciBjcyA9IG5vdGVzW2ldLnF1ZXJ5U2VsZWN0b3IoJ3VzZScpLmdldEF0dHJpYnV0ZSgndHJhbnNmb3JtJykubWF0Y2goL1woKFxTKnxcUypcc1xTKilcKS8pWzFdLnNwbGl0KC8gfCwvKTsNCiAgICAgICAgICAgIHZhciBwcyA9IG5vdGVzW2ldLnBhcmVudE5vZGUuZ2V0QXR0cmlidXRlKCd0cmFuc2Zvcm0nKTsNCiAgICAgICAgICAgIGlmIChwcy5zdWJzdHIoMCwgMikgPT0gJ3RyJykgew0KICAgICAgICAgICAgICAgIHZhciBwcHMgPSBwcy5tYXRjaCgvXCgoXFMqfFxTKlxzXFMqKVwpLylbMV0uc3BsaXQoLyB8LC8pOw0KICAgICAgICAgICAgICAgIHZhciB4ID0gcGFyc2VGbG9hdChjc1swXSkgKyBwYXJzZUZsb2F0KHBwc1swXSk7DQogICAgICAgICAgICAgICAgdmFyIHkgPSBwYXJzZUZsb2F0KHBwc1sxXSk7DQogICAgICAgICAgICAgICAgeCA9IHgudG9zdWl0c3ZnKCk7DQogICAgICAgICAgICAgICAgeSA9IHkudG9zdWl0c3ZnKCk7DQogICAgICAgICAgICAgICAgdmFyIHRyc3RyID0gJ3RyYW5zbGF0ZSgnICsgeCArICcsJyArIHkgKyAnKSc7DQogICAgICAgICAgICB9IGVsc2UgaWYgKHBzLnN1YnN0cigwLCAyKSA9PSAnbWEnKSB7DQogICAgICAgICAgICAgICAgdmFyIHBwcyA9IHBzLm1hdGNoKC8oXC0/XGQrKFwuXGQrKT8pW1wsIF0oXC0/XGQrKFwuXGQrKT8pW1wsIF0oXC0/XGQrKFwuXGQrKT8pW1wsIF0oXC0/XGQrKFwuXGQrKT8pW1wsIF0oXC0/XGQrKFwuXGQrKT8pW1wsIF0oXC0/XGQrKFwuXGQrKT8pXCkkLyk7DQogICAgICAgICAgICAgICAgdmFyIG1hQXJyID0gW3BhcnNlRmxvYXQocHBzWzFdKSwgcGFyc2VGbG9hdChwcHNbM10pLCBwYXJzZUZsb2F0KHBwc1s1XSksIHBhcnNlRmxvYXQocHBzWzddKSwgcGFyc2VGbG9hdChwcHNbOV0pLCBwYXJzZUZsb2F0KHBwc1sxMV0pXTsNCiAgICAgICAgICAgICAgICBpZiAobWFBcnJbMV0gPT0gMCkgew0KICAgICAgICAgICAgICAgICAgICB2YXIgeCA9IHBhcnNlRmxvYXQoY3NbMF0pOw0KICAgICAgICAgICAgICAgICAgICB2YXIgeSA9IHBhcnNlRmxvYXQoY3NbMV0pICsgMTY7DQogICAgICAgICAgICAgICAgICAgIHZhciB4MSA9IHggKiBtYUFyclswXSArIHkgKiBtYUFyclsyXSArIG1hQXJyWzRdOw0KICAgICAgICAgICAgICAgICAgICB2YXIgeTEgPSB4ICogbWFBcnJbMV0gKyB5ICogbWFBcnJbM10gKyBtYUFycls1XTsNCiAgICAgICAgICAgICAgICAgICAgeDEgPSB4MS50b3N1aXRzdmcoKTsNCiAgICAgICAgICAgICAgICAgICAgeTEgPSB5MS50b3N1aXRzdmcoKTsNCiAgICAgICAgICAgICAgICAgICAgdmFyIHRyc3RyID0gJ3RyYW5zbGF0ZSgnICsgeDEgKyAnLCcgKyB5MSArICcpJzsNCiAgICAgICAgICAgICAgICB9IGVsc2Ugew0KICAgICAgICAgICAgICAgICAgICB2YXIgeCA9IHBhcnNlRmxvYXQoY3NbMF0pICsgMTY7DQogICAgICAgICAgICAgICAgICAgIHZhciB5ID0gcGFyc2VGbG9hdChjc1sxXSkgKyAxNjsNCiAgICAgICAgICAgICAgICAgICAgdmFyIHgxID0geCAqIG1hQXJyWzBdICsgeSAqIG1hQXJyWzJdICsgbWFBcnJbNF07DQogICAgICAgICAgICAgICAgICAgIHZhciB5MSA9IHggKiBtYUFyclsxXSArIHkgKiBtYUFyclszXSArIG1hQXJyWzVdOw0KICAgICAgICAgICAgICAgICAgICB4ID0gcGFyc2VGbG9hdChjc1swXSkgKyAxNjsNCiAgICAgICAgICAgICAgICAgICAgeSA9IHBhcnNlRmxvYXQoY3NbMV0pOw0KICAgICAgICAgICAgICAgICAgICB2YXIgeDIgPSB4ICogbWFBcnJbMF0gKyB5ICogbWFBcnJbMl0gKyBtYUFycls0XTsNCiAgICAgICAgICAgICAgICAgICAgdmFyIHkyID0geCAqIG1hQXJyWzFdICsgeSAqIG1hQXJyWzNdICsgbWFBcnJbNV07DQogICAgICAgICAgICAgICAgICAgIHZhciBmeCA9IHgxIDwgeDIgPyB4MS50b3N1aXRzdmcoKSA6IHgyLnRvc3VpdHN2ZygpOw0KICAgICAgICAgICAgICAgICAgICB2YXIgZnkgPSB5MSA+IHkyID8geTEudG9zdWl0c3ZnKCkgOiB5Mi50b3N1aXRzdmcoKTsNCiAgICAgICAgICAgICAgICAgICAgdmFyIG9mZnkgPSBNYXRoLmFicyh5MSAtIHkyKTsNCiAgICAgICAgICAgICAgICAgICAgdmFyIHRyc3RyID0gJ3RyYW5zbGF0ZSgnICsgZnggKyAnLCcgKyBmeSArICcpJzsNCiAgICAgICAgICAgICAgICAgICAgcG9wdXBSLnNldEF0dHJpYnV0ZSgnaGVpZ2h0Jywgb2ZmeS50b1N0cmluZygpKTsNCiAgICAgICAgICAgICAgICAgICAgcG9wdXBSLnNldEF0dHJpYnV0ZSgnd2lkdGgnLCAnMTYnKTsNCiAgICAgICAgICAgICAgICAgICAgcG9wdXBSLnNldEF0dHJpYnV0ZSgneScsICgtb2ZmeSkudG9TdHJpbmcoKSk7DQogICAgICAgICAgICAgICAgICAgIHBvcHVwUi5zZXRBdHRyaWJ1dGUoJ2ZpbGwnLCAndHJhbnNwYXJlbnQnKTsNCiAgICAgICAgICAgICAgICAgICAgcG9wdXAuYXBwZW5kQ2hpbGQocG9wdXBSKTsNCiAgICAgICAgICAgICAgICB9DQogICAgICAgICAgICB9DQogICAgICAgICAgICBvdXQuc2V0QXR0cmlidXRlKCd0cmFuc2Zvcm0nLCB0cnN0cik7DQogICAgICAgICAgICBkb2N1bWVudC5xdWVyeVNlbGVjdG9yKCcjc3ZnLWNvbnRhaW5lciA+IHN2ZzpudGgtY2hpbGQoJyArIGluZGV4ICsgJyknKS5hcHBlbmRDaGlsZChvdXQpOw0KICAgICAgICAgICAgbm90ZXNbaV0ub25tb3VzZW92ZXIgPSBmdW5jdGlvbiAoKSB7DQogICAgICAgICAgICAgICAgLy8gdmFyIG5vdGVpZCA9IG5vdGVpZDsNCiAgICAgICAgICAgICAgICB0aGlzLnF1ZXJ5U2VsZWN0b3IoJ3JlY3QnKS5zdHlsZS5kaXNwbGF5ID0gJ2Jsb2NrJzsNCiAgICAgICAgICAgICAgICBkb2N1bWVudC5xdWVyeVNlbGVjdG9yKCJnW2VkXFw6bm90ZWlkPSciICsgbm90ZWlkICsgIiddW25vdGVdIikuc3R5bGUuZGlzcGxheSA9ICdibG9jayc7DQogICAgICAgICAgICB9Ow0KICAgICAgICAgICAgbm90ZXNbaV0ub25tb3VzZW91dCA9IGZ1bmN0aW9uICgpIHsNCiAgICAgICAgICAgICAgICAvLyB2YXIgbm90ZWlkID0gbm90ZWlkOw0KICAgICAgICAgICAgICAgIC8vICAgICAgICB3aW5kb3cuZ2V0U2VsZWN0aW9uKCkucmVtb3ZlQWxsUmFuZ2VzKCk7DQogICAgICAgICAgICAgICAgdGhpcy5xdWVyeVNlbGVjdG9yKCdyZWN0Jykuc3R5bGUuZGlzcGxheSA9ICdub25lJzsNCiAgICAgICAgICAgICAgICBkb2N1bWVudC5xdWVyeVNlbGVjdG9yKCJnW2VkXFw6bm90ZWlkPSciICsgbm90ZWlkICsgIiddW25vdGVdIikuc3R5bGUuZGlzcGxheSA9ICdub25lJzsNCiAgICAgICAgICAgIH0NCiAgICAgICAgfQ0KICAgIH0NCn0gZWxzZSB7DQogICAgY29uc29sZS5sb2coJ+aKseatie+8jElF5rWP6KeI5Zmo5LiN5pSv5oyBbm90Zeino+aekO+8jOivt+S9v+eUqOWFtuS7luWGheaguOa1j+iniOWZqOOAguiwouiwou+8gScpDQp9DQovLy0tbm90ZQ0KLy9oeXBlcmxpbmstLQ0KZnVuY3Rpb24gZ2V0bWF4bGVuKGFyciwgYnJyKSB7DQogICAgdmFyIGwgPSAwOw0KICAgIHZhciBsbCA9IDA7DQogICAgZm9yICh2YXIgaiA9IDA7IGogPCBhcnIubGVuZ3RoOyBqKyspIHsNCiAgICAgICAgdmFyIGUgPSBkb2N1bWVudC5jcmVhdGVFbGVtZW50TlMoJ2h0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnJywgJ3RleHQnKTsNCiAgICAgICAgaWYgKCFpc05hTihsaW5rYXJyW2pdKSkgew0KICAgICAgICAgICAgZS50ZXh0Q29udGVudCA9ICdQYWdlLScgKyBhcnJbal07DQogICAgICAgIH0gZWxzZSB7DQogICAgICAgICAgICBlLnRleHRDb250ZW50ID0gYXJyW2pdOw0KICAgICAgICB9DQogICAgICAgIGUuc3R5bGUuZm9udFNpemUgPSAnMTJweCc7DQogICAgICAgIGRvY3VtZW50LmJvZHkuZ2V0RWxlbWVudHNCeVRhZ05hbWUoJ3N2ZycpWzBdLmFwcGVuZENoaWxkKGUpOw0KICAgICAgICB2YXIgZXcgPSBlLmdldEJCb3goKS53aWR0aDsNCiAgICAgICAgZG9jdW1lbnQuYm9keS5nZXRFbGVtZW50c0J5VGFnTmFtZSgnc3ZnJylbMF0ucmVtb3ZlQ2hpbGQoZSk7DQogICAgICAgIHZhciBoID0gZG9jdW1lbnQuY3JlYXRlRWxlbWVudE5TKCdodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZycsICd0ZXh0Jyk7DQogICAgICAgIGgudGV4dENvbnRlbnQgPSBicnJbal07DQogICAgICAgIGguc3R5bGUuZm9udFNpemUgPSAnMTJweCc7DQogICAgICAgIGguc3R5bGUuZm9udFdlaWdodCA9ICdib2xkJzsNCiAgICAgICAgZG9jdW1lbnQuYm9keS5nZXRFbGVtZW50c0J5VGFnTmFtZSgnc3ZnJylbMF0uYXBwZW5kQ2hpbGQoaCk7DQogICAgICAgIHZhciBodyA9IGguZ2V0QkJveCgpLndpZHRoOw0KICAgICAgICBkb2N1bWVudC5ib2R5LmdldEVsZW1lbnRzQnlUYWdOYW1lKCdzdmcnKVswXS5yZW1vdmVDaGlsZChoKTsNCiAgICAgICAgbCA9IGV3ID4gaHcgPyBldyA6IGh3Ow0KICAgICAgICBsbCA9IGwgPiBsbCA/IGwgOiBsbDsNCiAgICB9DQogICAgcmV0dXJuIGxsOw0KfQ0Kc3ZnRWxlbXMgPSBkb2N1bWVudC5xdWVyeVNlbGVjdG9yQWxsKCJzdmciKTsNCmZvciAobGV0IGluZGV4ID0gMTsgaW5kZXggPD0gc3ZnRWxlbXMubGVuZ3RoOyBpbmRleCsrKSB7DQogICAgbGV0IHN2Z0VsZW0gPSBzdmdFbGVtc1tpbmRleF07DQogICAgbGV0IGxpbmtzID0gZG9jdW1lbnQucXVlcnlTZWxlY3RvckFsbCgic3ZnOm50aC1jaGlsZCgiICsgaW5kZXggKyAiKSBnPmdbZWRcXDpoeXBlcmxpbmtdIikNCiAgICBjb25zb2xlLmxvZyhsaW5rcyk7DQogICAgLy8gdmFyIGxpbmtzPWRvY3VtZW50LnF1ZXJ5U2VsZWN0b3JBbGwoJ2c+Z1tlZFxcOmh5cGVybGlua10nKTsNCiAgICBmb3IgKHZhciBpID0gMDsgaSA8IGxpbmtzLmxlbmd0aDsgaSsrKSB7DQogICAgICAgIHZhciBwb3B1cCA9IGRvY3VtZW50LmNyZWF0ZUVsZW1lbnROUygnaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnLCAnZycpOw0KICAgICAgICB2YXIgcG9wdXBSID0gZG9jdW1lbnQuY3JlYXRlRWxlbWVudE5TKCdodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZycsICdyZWN0Jyk7DQogICAgICAgIHZhciBob3ZlciA9IGRvY3VtZW50LmNyZWF0ZUVsZW1lbnROUygnaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnLCAncmVjdCcpOw0KICAgICAgICB2YXIgZGVzY2FyciA9IFtdOw0KICAgICAgICB2YXIgbGlua2FyciA9IFtdOw0KICAgICAgICBob3Zlci5zZXRBdHRyaWJ1dGUoJ2ZpbGwnLCAnI2NkY2RmZicpOw0KICAgICAgICBob3Zlci5zZXRBdHRyaWJ1dGUoJ3gnLCAnMCcpOw0KICAgICAgICBob3Zlci5zZXRBdHRyaWJ1dGUoJ3knLCAnMCcpOw0KICAgICAgICBob3Zlci5zZXRBdHRyaWJ1dGUoJ2hlaWdodCcsICcxNicpOw0KICAgICAgICBob3Zlci5zZXRBdHRyaWJ1dGUoJ3dpZHRoJywgJzE2Jyk7DQogICAgICAgIGhvdmVyLnNldEF0dHJpYnV0ZSgnZmlsbC1vcGFjaXR5JywgJzAuNicpOw0KICAgICAgICBob3Zlci5zZXRBdHRyaWJ1dGUoJ3RyYW5zZm9ybScsIGxpbmtzW2ldLnF1ZXJ5U2VsZWN0b3IoJ3VzZScpLmdldEF0dHJpYnV0ZSgndHJhbnNmb3JtJykpOw0KICAgICAgICBob3Zlci5zdHlsZS5kaXNwbGF5ID0gJ25vbmUnOw0KICAgICAgICBsaW5rc1tpXS5hcHBlbmRDaGlsZChob3Zlcik7DQogICAgICAgIC8vIGNvbnNvbGUubG9nKGxpbmtzW2ldLmdldEF0dHJpYnV0ZSgnZWQ6aHlwZXJsaW5rJykpOw0KICAgICAgICB2YXIgYSA9IEpTT04ucGFyc2UobGlua3NbaV0uZ2V0QXR0cmlidXRlKCdlZDpoeXBlcmxpbmsnKSk7DQogICAgICAgIHZhciBjcyA9IGxpbmtzW2ldLnF1ZXJ5U2VsZWN0b3IoJ3VzZScpLmdldEF0dHJpYnV0ZSgndHJhbnNmb3JtJykubWF0Y2goL1woKFxTKnxcUypcc1xTKilcKS8pWzFdLnNwbGl0KC8gfCwvKTsNCiAgICAgICAgdmFyIHBzID0gbGlua3NbaV0ucGFyZW50Tm9kZS5nZXRBdHRyaWJ1dGUoJ3RyYW5zZm9ybScpOw0KICAgICAgICBpZiAocHMuc3Vic3RyKDAsIDIpID09ICd0cicpIHsNCiAgICAgICAgICAgIHZhciBwcHMgPSBwcy5tYXRjaCgvXCgoXFMqfFxTKlxzXFMqKVwpLylbMV0uc3BsaXQoLyB8LC8pOw0KICAgICAgICAgICAgdmFyIHggPSBwYXJzZUZsb2F0KGNzWzBdKSArIHBhcnNlRmxvYXQocHBzWzBdKTsNCiAgICAgICAgICAgIHZhciB5ID0gcGFyc2VGbG9hdChwcHNbMV0pOw0KICAgICAgICAgICAgeCA9IHgudG9zdWl0c3ZnKCk7DQogICAgICAgICAgICB5ID0geS50b3N1aXRzdmcoKTsNCiAgICAgICAgICAgIHZhciB0cnN0ciA9ICd0cmFuc2xhdGUoJyArIHggKyAnLCcgKyB5ICsgJyknOw0KICAgICAgICB9IGVsc2UgaWYgKHBzLnN1YnN0cigwLCAyKSA9PSAnbWEnKSB7DQogICAgICAgICAgICB2YXIgcHBzID0gcHMubWF0Y2goLyhcLT9cZCsoXC5cZCspPylbXCwgXShcLT9cZCsoXC5cZCspPylbXCwgXShcLT9cZCsoXC5cZCspPylbXCwgXShcLT9cZCsoXC5cZCspPylbXCwgXShcLT9cZCsoXC5cZCspPylbXCwgXShcLT9cZCsoXC5cZCspPylcKSQvKTsNCiAgICAgICAgICAgIHZhciBtYUFyciA9IFtwYXJzZUZsb2F0KHBwc1sxXSksIHBhcnNlRmxvYXQocHBzWzNdKSwgcGFyc2VGbG9hdChwcHNbNV0pLCBwYXJzZUZsb2F0KHBwc1s3XSksIHBhcnNlRmxvYXQocHBzWzldKSwgcGFyc2VGbG9hdChwcHNbMTFdKV07DQogICAgICAgICAgICBpZiAobWFBcnJbMV0gPT0gMCkgew0KICAgICAgICAgICAgICAgIHZhciB4ID0gcGFyc2VGbG9hdChjc1swXSk7DQogICAgICAgICAgICAgICAgdmFyIHkgPSBwYXJzZUZsb2F0KGNzWzFdKSArIDE2Ow0KICAgICAgICAgICAgICAgIHZhciB4MSA9IHggKiBtYUFyclswXSArIHkgKiBtYUFyclsyXSArIG1hQXJyWzRdOw0KICAgICAgICAgICAgICAgIHZhciB5MSA9IHggKiBtYUFyclsxXSArIHkgKiBtYUFyclszXSArIG1hQXJyWzVdOw0KICAgICAgICAgICAgICAgIHgxID0geDEudG9zdWl0c3ZnKCk7DQogICAgICAgICAgICAgICAgeTEgPSB5MS50b3N1aXRzdmcoKTsNCiAgICAgICAgICAgICAgICB2YXIgdHJzdHIgPSAndHJhbnNsYXRlKCcgKyB4MSArICcsJyArIHkxICsgJyknOw0KICAgICAgICAgICAgfSBlbHNlIHsNCiAgICAgICAgICAgICAgICB2YXIgeCA9IHBhcnNlRmxvYXQoY3NbMF0pICsgMTY7DQogICAgICAgICAgICAgICAgdmFyIHkgPSBwYXJzZUZsb2F0KGNzWzFdKSArIDE2Ow0KICAgICAgICAgICAgICAgIHZhciB4MSA9IHggKiBtYUFyclswXSArIHkgKiBtYUFyclsyXSArIG1hQXJyWzRdOw0KICAgICAgICAgICAgICAgIHZhciB5MSA9IHggKiBtYUFyclsxXSArIHkgKiBtYUFyclszXSArIG1hQXJyWzVdOw0KICAgICAgICAgICAgICAgIHggPSBwYXJzZUZsb2F0KGNzWzBdKSArIDE2Ow0KICAgICAgICAgICAgICAgIHkgPSBwYXJzZUZsb2F0KGNzWzFdKTsNCiAgICAgICAgICAgICAgICB2YXIgeDIgPSB4ICogbWFBcnJbMF0gKyB5ICogbWFBcnJbMl0gKyBtYUFycls0XTsNCiAgICAgICAgICAgICAgICB2YXIgeTIgPSB4ICogbWFBcnJbMV0gKyB5ICogbWFBcnJbM10gKyBtYUFycls1XTsNCiAgICAgICAgICAgICAgICB2YXIgZnggPSB4MSA8IHgyID8geDEudG9zdWl0c3ZnKCkgOiB4Mi50b3N1aXRzdmcoKTsNCiAgICAgICAgICAgICAgICB2YXIgZnkgPSB5MSA+IHkyID8geTEudG9zdWl0c3ZnKCkgOiB5Mi50b3N1aXRzdmcoKTsNCiAgICAgICAgICAgICAgICB2YXIgb2ZmeSA9IE1hdGguYWJzKHkxIC0geTIpOw0KICAgICAgICAgICAgICAgIHZhciB0cnN0ciA9ICd0cmFuc2xhdGUoJyArIGZ4ICsgJywnICsgZnkgKyAnKSc7DQogICAgICAgICAgICAgICAgcG9wdXBSLnNldEF0dHJpYnV0ZSgnaGVpZ2h0Jywgb2ZmeS50b1N0cmluZygpKTsNCiAgICAgICAgICAgICAgICBwb3B1cFIuc2V0QXR0cmlidXRlKCd3aWR0aCcsICcxNicpOw0KICAgICAgICAgICAgICAgIHBvcHVwUi5zZXRBdHRyaWJ1dGUoJ3knLCAoLW9mZnkpLnRvU3RyaW5nKCkpOw0KICAgICAgICAgICAgICAgIHBvcHVwUi5zZXRBdHRyaWJ1dGUoJ2ZpbGwnLCAndHJhbnNwYXJlbnQnKTsNCiAgICAgICAgICAgICAgICBwb3B1cC5hcHBlbmRDaGlsZChwb3B1cFIpOw0KICAgICAgICAgICAgfQ0KICAgICAgICB9DQogICAgICAgIHZhciBhbCA9IGEubGVuZ3RoOw0KICAgICAgICBmb3IgKHZhciBqID0gMDsgaiA8IGFsOyBqKyspIHsNCiAgICAgICAgICAgIGxpbmthcnIucHVzaChhW2pdLmxpbmspOw0KICAgICAgICAgICAgZGVzY2Fyci5wdXNoKGFbal0uZGVzYyk7DQogICAgICAgIH0NCiAgICAgICAgcG9wdXAuc2V0QXR0cmlidXRlKCd0cmFuc2Zvcm0nLCB0cnN0cik7DQogICAgICAgIHZhciBtYXggPSBnZXRtYXhsZW4obGlua2FyciwgZGVzY2Fycik7DQogICAgICAgIGZvciAodmFyIGsgPSAwOyBrIDwgYWw7IGsrKykgew0KICAgICAgICAgICAgdmFyIGMgPSBkb2N1bWVudC5jcmVhdGVFbGVtZW50TlMoJ2h0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnJywgJ2EnKTsNCiAgICAgICAgICAgIHZhciBkID0gZG9jdW1lbnQuY3JlYXRlRWxlbWVudE5TKCdodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZycsICdyZWN0Jyk7DQogICAgICAgICAgICB2YXIgZSA9IGRvY3VtZW50LmNyZWF0ZUVsZW1lbnROUygnaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnLCAndGV4dCcpOw0KICAgICAgICAgICAgdmFyIGYgPSBkb2N1bWVudC5jcmVhdGVFbGVtZW50TlMoJ2h0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnJywgJ3RleHQnKTsNCiAgICAgICAgICAgIGlmIChpc05hTihsaW5rYXJyW2tdKSkgew0KICAgICAgICAgICAgICAgIGMuc2V0QXR0cmlidXRlTlMoImh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiwgInhsaW5rIiwgImh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiKTsNCiAgICAgICAgICAgICAgICBjLnNldEF0dHJpYnV0ZU5TKCJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiwgImhyZWYiLCBsaW5rYXJyW2tdKTsNCiAgICAgICAgICAgICAgICBjLnNldEF0dHJpYnV0ZSgndGFyZ2V0JywgJ19ibGFuaycpOw0KICAgICAgICAgICAgICAgIGUudGV4dENvbnRlbnQgPSBsaW5rYXJyW2tdOw0KICAgICAgICAgICAgfSBlbHNlIHsNCiAgICAgICAgICAgICAgICBlLnRleHRDb250ZW50ID0gJ1BhZ2UtJyArIGxpbmthcnJba107DQogICAgICAgICAgICAgICAgYy5zZXRBdHRyaWJ1dGVOUygiaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciLCAieGxpbmsiLCAiaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIpOw0KICAgICAgICAgICAgICAgIGMuc2V0QXR0cmlidXRlTlMoImh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiLCAiaHJlZiIsICIjIiArIGxpbmthcnJba10pOw0KICAgICAgICAgICAgfQ0KICAgICAgICAgICAgZC5zZXRBdHRyaWJ1dGUoJ3dpZHRoJywgbWF4ICsgMTApOw0KICAgICAgICAgICAgZC5zZXRBdHRyaWJ1dGUoJ2hlaWdodCcsICczMycpOw0KICAgICAgICAgICAgZC5zZXRBdHRyaWJ1dGUoJ3N0cm9rZScsICcjOTk5OTk5Jyk7DQogICAgICAgICAgICBkLnNldEF0dHJpYnV0ZSgnZmlsbCcsICd3aGl0ZScpOw0KICAgICAgICAgICAgZC5zZXRBdHRyaWJ1dGUoJ3knLCAzMyAqIGspOw0KICAgICAgICAgICAgZi50ZXh0Q29udGVudCA9IGRlc2NhcnJba107DQogICAgICAgICAgICBmLnN0eWxlLmZvbnRTaXplID0gJzEycHgnOw0KICAgICAgICAgICAgZi5zdHlsZS5mb250V2VpZ2h0ID0gJ2JvbGQnOw0KICAgICAgICAgICAgZi5zZXRBdHRyaWJ1dGUoJ3gnLCA1KTsNCiAgICAgICAgICAgIGYuc2V0QXR0cmlidXRlKCd5JywgMzMgKiBrICsgMTIpOw0KICAgICAgICAgICAgZS5zdHlsZS5mb250U2l6ZSA9ICcxMnB4JzsNCiAgICAgICAgICAgIGUuc2V0QXR0cmlidXRlKCd5JywgMzMgKiBrICsgMjgpOw0KICAgICAgICAgICAgZS5zZXRBdHRyaWJ1dGUoJ3gnLCA1KTsNCiAgICAgICAgICAgIGMuYXBwZW5kQ2hpbGQoZCk7DQogICAgICAgICAgICBjLmFwcGVuZENoaWxkKGYpOw0KICAgICAgICAgICAgYy5hcHBlbmRDaGlsZChlKTsNCiAgICAgICAgICAgIGMub25tb3VzZW92ZXIgPSBmdW5jdGlvbiAoKSB7DQogICAgICAgICAgICAgICAgdGhpcy5xdWVyeVNlbGVjdG9yKCdyZWN0Jykuc3R5bGUuZmlsbCA9ICcjZTFlMWZmJw0KICAgICAgICAgICAgfTsNCiAgICAgICAgICAgIGMub25tb3VzZW91dCA9IGZ1bmN0aW9uICgpIHsNCiAgICAgICAgICAgICAgICB0aGlzLnF1ZXJ5U2VsZWN0b3IoJ3JlY3QnKS5zdHlsZS5maWxsID0gJ3doaXRlJw0KICAgICAgICAgICAgfTsNCiAgICAgICAgICAgIHBvcHVwLmFwcGVuZENoaWxkKGMpOw0KICAgICAgICB9DQogICAgICAgIHBvcHVwLnN0eWxlLmRpc3BsYXkgPSAnbm9uZSc7DQogICAgICAgIHBvcHVwLnNldEF0dHJpYnV0ZSgnaHlwZXJsaW5rJywgJycpOw0KICAgICAgICBwb3B1cC5zZXRBdHRyaWJ1dGUoJ2VkOmxpbmtpZCcsIGxpbmtzW2ldLnBhcmVudE5vZGUucGFyZW50Tm9kZS5pZCArICIsIiArIGxpbmtzW2ldLnBhcmVudE5vZGUuaWQpOw0KICAgICAgICBwb3B1cC5vbm1vdXNlb3ZlciA9IGZ1bmN0aW9uICgpIHsNCiAgICAgICAgICAgIHRoaXMuc3R5bGUuZGlzcGxheSA9ICdibG9jayc7DQogICAgICAgIH07DQogICAgICAgIHBvcHVwLm9uY2xpY2sgPSBmdW5jdGlvbiAoKSB7DQogICAgICAgICAgICB0aGlzLnN0eWxlLmRpc3BsYXkgPSAnbm9uZSc7DQogICAgICAgIH07DQogICAgICAgIHBvcHVwLm9ubW91c2VvdXQgPSBmdW5jdGlvbiAoKSB7DQogICAgICAgICAgICB0aGlzLnN0eWxlLmRpc3BsYXkgPSAnbm9uZSc7DQogICAgICAgIH07DQogICAgICAgIGRvY3VtZW50LnF1ZXJ5U2VsZWN0b3IoJyNzdmctY29udGFpbmVyID4gc3ZnOm50aC1jaGlsZCgnICsgaW5kZXggKyAnKScpLmFwcGVuZENoaWxkKHBvcHVwKTsNCiAgICAgICAgbGlua3NbaV0ub25tb3VzZW92ZXIgPSBmdW5jdGlvbiAoKSB7DQogICAgICAgICAgICB2YXIgbGlua2lkID0gdGhpcy5wYXJlbnROb2RlLnBhcmVudE5vZGUuaWQgKyAiLCIgKyB0aGlzLnBhcmVudE5vZGUuaWQ7DQogICAgICAgICAgICB0aGlzLnF1ZXJ5U2VsZWN0b3IoJ3JlY3QnKS5zdHlsZS5kaXNwbGF5ID0gJ2Jsb2NrJzsNCiAgICAgICAgICAgIGRvY3VtZW50LnF1ZXJ5U2VsZWN0b3IoImdbZWRcXDpsaW5raWQ9JyIgKyBsaW5raWQgKyAiJ11baHlwZXJsaW5rXSIpLnN0eWxlLmRpc3BsYXkgPSAnYmxvY2snOw0KICAgICAgICAgICAgLy8gcG9wdXAuc3R5bGUuZGlzcGxheSA9ICdibG9jayc7DQogICAgICAgIH0NCiAgICAgICAgbGlua3NbaV0ub25tb3VzZW91dCA9IGZ1bmN0aW9uICgpIHsNCiAgICAgICAgICAgIC8vIHZhciBsaW5raWQgPSB0aGlzLnBhcmVudE5vZGUuaWQ7DQogICAgICAgICAgICB2YXIgbGlua2lkID0gdGhpcy5wYXJlbnROb2RlLnBhcmVudE5vZGUuaWQgKyAiLCIgKyB0aGlzLnBhcmVudE5vZGUuaWQ7DQogICAgICAgICAgICB0aGlzLnF1ZXJ5U2VsZWN0b3IoJ3JlY3QnKS5zdHlsZS5kaXNwbGF5ID0gJ25vbmUnOw0KICAgICAgICAgICAgZG9jdW1lbnQucXVlcnlTZWxlY3RvcigiZ1tlZFxcOmxpbmtpZD0nIiArIGxpbmtpZCArICInXVtoeXBlcmxpbmtdIikuc3R5bGUuZGlzcGxheSA9ICdub25lJzsNCiAgICAgICAgICAgIC8vIHBvcHVwLnN0eWxlLmRpc3BsYXkgPSAnbm9uZSc7DQogICAgICAgIH0NCiAgICB9DQp9DQoNCi8vLS1oeXBlcmxpbmsNCi8vaW5pdGlhbGl6ZS0tDQp2YXIgc2hhcGUgPSBkb2N1bWVudC5xdWVyeVNlbGVjdG9yQWxsKCdnW2VkXFw6dG9ndG9waWNpZF0nKTsNCnZhciBtSWQgPSBkb2N1bWVudC5xdWVyeVNlbGVjdG9yQWxsKCdnW2VkXFw6dG9waWN0eXBlXScpOw0KdmFyIGRhdGFUcmVlID0ge307DQp2YXIgZXh0cmFSZWxhID0ge307DQp2YXIgY2hlY2tJRCA9ICcnOw0KZm9yICh2YXIgaSA9IDA7IGkgPCBtSWQubGVuZ3RoOyBpKyspIHsNCiAgICB2YXIgdHlwZSA9IG1JZFtpXS5nZXRBdHRyaWJ1dGUoJ2VkOnRvcGljdHlwZScpOw0KICAgIHZhciBzaWQgPSBtSWRbaV0uaWQ7DQogICAgaWYgKHR5cGUgIT09ICdjYWxsb3V0Jykgew0KICAgICAgICBpbml0KHNpZCwgZGF0YVRyZWUpDQogICAgfQ0KfQ0KZnVuY3Rpb24gaW5pdChpZCwgb2JqKSB7DQogICAgdmFyIGNoaWxkcyA9IGRvY3VtZW50LnF1ZXJ5U2VsZWN0b3JBbGwoImdbZWRcXDpwYXJlbnRpZD0nIiArIGlkICsgIiddOm5vdChbZWRcXDp0b3BpY3R5cGVdKSIpOw0KICAgIHZhciBjYWxscyA9IGRvY3VtZW50LnF1ZXJ5U2VsZWN0b3JBbGwoImdbZWRcXDpwYXJlbnRpZD0nIiArIGlkICsgIiddW2VkXFw6dG9waWN0eXBlXSIpOw0KICAgIHZhciBzdW1tYXJ5ID0gZG9jdW1lbnQucXVlcnlTZWxlY3RvckFsbCgicGF0aFtlZFxcOnBhcmVudGlkKj0nIiArIGlkICsgIiddW2VkXFw6dHlwZT0nc3VtbWFyeSddIik7DQogICAgdmFyIGJvdW5kYXJ5ID0gZG9jdW1lbnQucXVlcnlTZWxlY3RvckFsbCgicGF0aFtlZFxcOnBhcmVudGlkKj0nIiArIGlkICsgIiddW2VkXFw6dHlwZT0nYm91bmRhcnknXSIpOw0KICAgIHZhciByZWxhZnJvbSA9IGRvY3VtZW50LnF1ZXJ5U2VsZWN0b3JBbGwoImdbZWRcXDpmcm9taWQqPSciICsgaWQgKyAiJ11bZWRcXDp0eXBlPSdyZWxhdGlvbiddIik7DQogICAgdmFyIHJlbGF0byA9IGRvY3VtZW50LnF1ZXJ5U2VsZWN0b3JBbGwoImdbZWRcXDp0b2lkKj0nIiArIGlkICsgIiddW2VkXFw6dHlwZT0ncmVsYXRpb24nXSIpOw0KICAgIG9ialsibSIgKyBpZF0gPSB7fTsNCiAgICB2YXIgdHlwZSA9IGRvY3VtZW50LmdldEVsZW1lbnRCeUlkKGlkKS5nZXRBdHRyaWJ1dGUoJ2VkOnRvcGljdHlwZScpOw0KICAgIHZhciBpdyA9IGRvY3VtZW50LmdldEVsZW1lbnRCeUlkKGlkKS5nZXRBdHRyaWJ1dGUoJ2VkOndpZHRoJyk7DQogICAgdmFyIGloID0gZG9jdW1lbnQuZ2V0RWxlbWVudEJ5SWQoaWQpLmdldEF0dHJpYnV0ZSgnZWQ6aGVpZ2h0Jyk7DQogICAgaWYgKHR5cGUpIHsNCiAgICAgICAgb2JqWyJtIiArIGlkXS50eXBlID0gdHlwZTsNCiAgICB9DQogICAgaWYgKGl3ICYmIGloKSB7DQogICAgICAgIG9ialsibSIgKyBpZF0ud2lkdGggPSBpdzsNCiAgICAgICAgb2JqWyJtIiArIGlkXS5oZWlnaHQgPSBpaDsNCiAgICB9DQogICAgaWYgKHJlbGFmcm9tLmxlbmd0aCAhPT0gMCkgew0KICAgICAgICBvYmpbIm0iICsgaWRdLnJlbGFmcm9tID0ge307DQogICAgICAgIGZvciAodmFyIGkgPSAwOyBpIDwgcmVsYWZyb20ubGVuZ3RoOyBpKyspIHsNCiAgICAgICAgICAgIHZhciBpbmRleGlkID0gcmVsYWZyb21baV0uaWQ7DQogICAgICAgICAgICB2YXIgdG9pZCA9IGRvY3VtZW50LmdldEVsZW1lbnRCeUlkKGluZGV4aWQpLmdldEF0dHJpYnV0ZSgnZWQ6dG9pZCcpOw0KICAgICAgICAgICAgaWYgKGV4dHJhUmVsYVtpbmRleGlkXSA9PT0gdW5kZWZpbmVkKSB7DQogICAgICAgICAgICAgICAgZXh0cmFSZWxhW2luZGV4aWRdID0gew0KICAgICAgICAgICAgICAgICAgICBpZDogaW5kZXhpZCwNCiAgICAgICAgICAgICAgICAgICAgZnJvbWlkOiBpZCwNCiAgICAgICAgICAgICAgICAgICAgdG9pZDogdG9pZCwNCiAgICAgICAgICAgICAgICAgICAgaXNDOiBmYWxzZQ0KICAgICAgICAgICAgICAgIH07DQogICAgICAgICAgICB9DQogICAgICAgICAgICBvYmpbIm0iICsgaWRdLnJlbGFmcm9tW2luZGV4aWRdID0ge307DQogICAgICAgICAgICBvYmpbIm0iICsgaWRdLnJlbGFmcm9tLmRpc3BsYXkgPSBkb2N1bWVudC5nZXRFbGVtZW50QnlJZChpZCkuc3R5bGUuZGlzcGxheSAhPT0gJ25vbmUnID8gJ2Jsb2NrJyA6ICdub25lJzsNCiAgICAgICAgfQ0KICAgIH0NCiAgICBpZiAocmVsYXRvLmxlbmd0aCAhPT0gMCkgew0KICAgICAgICBvYmpbIm0iICsgaWRdLnJlbGF0byA9IHt9Ow0KICAgICAgICBmb3IgKHZhciBpID0gMDsgaSA8IHJlbGF0by5sZW5ndGg7IGkrKykgew0KICAgICAgICAgICAgdmFyIGluZGV4aWQgPSByZWxhdG9baV0uaWQ7DQogICAgICAgICAgICB2YXIgZnJvbWlkID0gZG9jdW1lbnQuZ2V0RWxlbWVudEJ5SWQoaW5kZXhpZCkuZ2V0QXR0cmlidXRlKCdlZDpmcm9taWQnKTsNCiAgICAgICAgICAgIGlmIChleHRyYVJlbGFbaW5kZXhpZF0gPT09IHVuZGVmaW5lZCkgew0KICAgICAgICAgICAgICAgIGV4dHJhUmVsYVtpbmRleGlkXSA9IHsNCiAgICAgICAgICAgICAgICAgICAgaWQ6IGluZGV4aWQsDQogICAgICAgICAgICAgICAgICAgIGZyb21pZDogZnJvbWlkLA0KICAgICAgICAgICAgICAgICAgICB0b2lkOiBpZCwNCiAgICAgICAgICAgICAgICAgICAgaXNDOiBmYWxzZQ0KICAgICAgICAgICAgICAgIH07DQogICAgICAgICAgICB9DQogICAgICAgICAgICBvYmpbIm0iICsgaWRdLnJlbGF0b1tpbmRleGlkXSA9IHt9Ow0KICAgICAgICAgICAgb2JqWyJtIiArIGlkXS5yZWxhdG8uZGlzcGxheSA9IGRvY3VtZW50LmdldEVsZW1lbnRCeUlkKGlkKS5zdHlsZS5kaXNwbGF5ICE9PSAnbm9uZScgPyAnYmxvY2snIDogJ25vbmUnOw0KICAgICAgICB9DQogICAgfQ0KICAgIGlmIChjaGlsZHMubGVuZ3RoICE9PSAwKSB7DQogICAgICAgIG9ialsibSIgKyBpZF0uY2hpbGQgPSB7fTsNCiAgICAgICAgaWYgKGRvY3VtZW50LnF1ZXJ5U2VsZWN0b3IoImdbZWRcXDp0b2d0b3BpY2lkPSciICsgaWQgKyAiJ10iKSkgew0KICAgICAgICAgICAgLy8gY29uc29sZS5sb2coZG9jdW1lbnQucXVlcnlTZWxlY3RvcigiZ1tlZFxcOnRvZ3RvcGljaWQ9JyIgKyBpZCArICInXSIpLmNoaWxkTm9kZXNbMF0uZ2V0QXR0cmlidXRlKCd4bGluazpocmVmJykpOw0KICAgICAgICAgICAgdmFyIHRvZyA9IGRvY3VtZW50LnF1ZXJ5U2VsZWN0b3IoImdbZWRcXDp0b2d0b3BpY2lkPSciICsgaWQgKyAiJ10iKS5nZXRFbGVtZW50c0J5VGFnTmFtZSgndXNlJylbMF0uZ2V0QXR0cmlidXRlKCd4bGluazpocmVmJykuc2xpY2UoMSk7DQogICAgICAgICAgICBvYmpbIm0iICsgaWRdLnRvZ3R5cGUgPSB0b2c7DQogICAgICAgIH0NCiAgICAgICAgZm9yICh2YXIgaSA9IDA7IGkgPCBjaGlsZHMubGVuZ3RoOyBpKyspIHsNCiAgICAgICAgICAgIHZhciBjaWQgPSBjaGlsZHNbaV0uaWQ7DQogICAgICAgICAgICBpbml0KGNpZCwgb2JqWyJtIiArIGlkXS5jaGlsZCk7DQogICAgICAgIH0NCiAgICB9DQogICAgaWYgKGNhbGxzLmxlbmd0aCAhPT0gMCkgew0KICAgICAgICBvYmpbIm0iICsgaWRdLmNhbGwgPSB7fTsNCiAgICAgICAgZm9yICh2YXIgaSA9IDA7IGkgPCBjYWxscy5sZW5ndGg7IGkrKykgew0KICAgICAgICAgICAgdmFyIGNpZCA9IGNhbGxzW2ldLmlkOw0KICAgICAgICAgICAgaW5pdChjaWQsIG9ialsibSIgKyBpZF0uY2FsbCk7DQogICAgICAgIH0NCiAgICB9DQogICAgaWYgKGJvdW5kYXJ5Lmxlbmd0aCAhPT0gMCkgew0KICAgICAgICBvYmpbIm0iICsgaWRdLmJvdW5kYXJ5ID0ge307DQogICAgICAgIGZvciAodmFyIGkgPSAwOyBpIDwgYm91bmRhcnkubGVuZ3RoOyBpKyspIHsNCiAgICAgICAgICAgIHZhciBjaWQgPSBib3VuZGFyeVtpXS5pZDsNCiAgICAgICAgICAgIGluaXQoY2lkLCBvYmpbIm0iICsgaWRdLmJvdW5kYXJ5KTsNCiAgICAgICAgfQ0KICAgIH0NCiAgICBpZiAoc3VtbWFyeS5sZW5ndGggIT09IDApIHsNCiAgICAgICAgb2JqWyJtIiArIGlkXS5zdW1tYXJ5ID0ge307DQogICAgICAgIGZvciAodmFyIGkgPSAwOyBpIDwgc3VtbWFyeS5sZW5ndGg7IGkrKykgew0KICAgICAgICAgICAgdmFyIGNpZCA9IHN1bW1hcnlbaV0uaWQ7DQogICAgICAgICAgICBpbml0KGNpZCwgb2JqWyJtIiArIGlkXS5zdW1tYXJ5KTsNCiAgICAgICAgfQ0KICAgIH0NCn0NCi8vLS1pbml0aWFsaXplDQovL3RvZ2dsZWRpc3BsYXktLQ0KdmFyIGNoYWluQXJyID0gW107DQpmdW5jdGlvbiBnZXRjaGFpbihpZCkgew0KICAgIGNoYWluQXJyLnVuc2hpZnQoJ20nICsgaWQpOw0KICAgIHZhciBwYXJlbnQgPSBkb2N1bWVudC5nZXRFbGVtZW50QnlJZChpZCkuZ2V0QXR0cmlidXRlKCdlZDpwYXJlbnRpZCcpOw0KICAgIGlmICghcGFyZW50KSB7DQogICAgICAgIHJldHVybjsNCiAgICB9DQogICAgaWYgKHBhcmVudC5tYXRjaCgvXCwvKSkgew0KICAgICAgICBwYXJlbnQgPSBwYXJlbnQubWF0Y2goL1xkKyg/PVwsKS8pWzBdDQogICAgfQ0KICAgIGdldGNoYWluKHBhcmVudCk7DQp9DQpmdW5jdGlvbiBnZXRvYmooaWQpIHsNCiAgICBjaGFpbkFyciA9IFtdOw0KICAgIGdldGNoYWluKGlkKTsNCiAgICB2YXIgbWFpbiA9IGNoYWluQXJyWzBdOw0KICAgIGlmIChjaGFpbkFyci5sZW5ndGggPiAxKSB7DQogICAgICAgIHZhciBvYmogPSBkYXRhVHJlZVttYWluXTsNCiAgICAgICAgLy8gY29uc29sZS5sb2coY2hhaW5BcnIpOw0KICAgICAgICBmb3IgKHZhciBpID0gMTsgaSA8IGNoYWluQXJyLmxlbmd0aDsgaSsrKSB7DQogICAgICAgICAgICB2YXIgYSA9IGNoYWluQXJyW2ldOw0KICAgICAgICAgICAgZm9yICh2YXIgaiA9IDA7IGogPCBPYmplY3Qua2V5cyhvYmopLmxlbmd0aDsgaisrKSB7DQogICAgICAgICAgICAgICAgdmFyIGNvYmogPSBvYmpbT2JqZWN0LmtleXMob2JqKVtqXV1bYV07DQogICAgICAgICAgICAgICAgaWYgKGNvYmopIHsNCiAgICAgICAgICAgICAgICAgICAgb2JqID0gY29iajsNCiAgICAgICAgICAgICAgICAgICAgY29udGludWUNCiAgICAgICAgICAgICAgICB9DQogICAgICAgICAgICB9DQogICAgICAgIH0NCiAgICAgICAgcmV0dXJuIG9iag0KICAgIH0gZWxzZSB7DQogICAgICAgIHZhciBvYmogPSBkYXRhVHJlZVttYWluXTsNCiAgICAgICAgcmV0dXJuIG9iag0KICAgIH0NCg0KfQ0KZm9yICh2YXIgaSA9IDA7IGkgPCBzaGFwZS5sZW5ndGg7IGkrKykgew0KICAgIHNoYXBlW2ldLm9uY2xpY2sgPSBmdW5jdGlvbiAoKSB7DQogICAgICAgIHZhciBpZCA9IE51bWJlcih0aGlzLmdldEF0dHJpYnV0ZSgnZWQ6dG9ndG9waWNpZCcpKTsNCiAgICAgICAgdmFyIG9iaiA9IGdldG9iaihpZCk7DQoNCiAgICAgICAgdmFyIHR5cGUgPSBvYmoudG9ndHlwZSA9PT0gJ21pbnVzJyA/ICdwbHVzJyA6ICdtaW51cyc7DQogICAgICAgIHZhciBkaXNwbGF5ID0gb2JqLnRvZ3R5cGUgPT09ICdtaW51cycgPyAnbm9uZScgOiAnYmxvY2snOw0KICAgICAgICB0aGlzLmdldEVsZW1lbnRzQnlUYWdOYW1lKCd1c2UnKVswXS5zZXRBdHRyaWJ1dGUoJ3hsaW5rOmhyZWYnLCAnIycgKyB0eXBlKTsNCiAgICAgICAgb2JqLnRvZ3R5cGUgPSB0eXBlOw0KICAgICAgICBjaGVja0lEID0gb2JqOw0KDQogICAgICAgIHV0ZChvYmosIGlkLCBkaXNwbGF5KTsNCiAgICAgICAgZXh0cmFSZWxhRmluKCk7DQogICAgfQ0KfQ0KZnVuY3Rpb24gdXRkKG9iaiwgaWQsIHNob3csIG9jKSB7DQoNCiAgICB2YXIgcHNob3cgPSBkb2N1bWVudC5nZXRFbGVtZW50QnlJZChpZCkuc3R5bGUuZGlzcGxheSAhPT0gJ25vbmUnID8gJ2Jsb2NrJyA6ICdub25lJzsNCiAgICBpZiAob2JqLnJlbGFmcm9tKSB7DQogICAgICAgIGlmIChvYmoucmVsYWZyb20uZGlzcGxheSAhPT0gcHNob3cpIHsNCiAgICAgICAgICAgIHZhciByZWxhZnJvbXMgPSBPYmplY3Qua2V5cyhvYmoucmVsYWZyb20pOw0KICAgICAgICAgICAgcmVsYWZyb21zLnNwbGljZShyZWxhZnJvbXMuaW5kZXhPZignZGlzcGxheScpLCAxKTsNCiAgICAgICAgICAgIGZvciAodmFyIGsgPSAwOyBrIDwgcmVsYWZyb21zLmxlbmd0aDsgaysrKSB7DQogICAgICAgICAgICAgICAgdmFyIGQgPSByZWxhZnJvbXNba107DQogICAgICAgICAgICAgICAgZXh0cmFSZWxhW2RdLmlzQyA9IHRydWU7DQogICAgICAgICAgICB9DQogICAgICAgICAgICBvYmoucmVsYWZyb20uZGlzcGxheSA9IHBzaG93Ow0KICAgICAgICB9DQogICAgfQ0KICAgIGlmIChvYmoucmVsYXRvKSB7DQogICAgICAgIGlmIChvYmoucmVsYXRvLmRpc3BsYXkgIT09IHBzaG93KSB7DQogICAgICAgICAgICB2YXIgcmVsYXRvcyA9IE9iamVjdC5rZXlzKG9iai5yZWxhdG8pOw0KICAgICAgICAgICAgcmVsYXRvcy5zcGxpY2UocmVsYXRvcy5pbmRleE9mKCdkaXNwbGF5JyksIDEpOw0KICAgICAgICAgICAgZm9yICh2YXIgayA9IDA7IGsgPCByZWxhdG9zLmxlbmd0aDsgaysrKSB7DQogICAgICAgICAgICAgICAgdmFyIGQgPSByZWxhdG9zW2tdOw0KICAgICAgICAgICAgICAgIGV4dHJhUmVsYVtkXS5pc0MgPSB0cnVlOw0KICAgICAgICAgICAgfQ0KICAgICAgICAgICAgb2JqLnJlbGF0by5kaXNwbGF5ID0gcHNob3c7DQogICAgICAgIH0NCiAgICB9DQogICAgaWYgKG9iai5jYWxsKSB7DQogICAgICAgIHZhciBjYWxscyA9IE9iamVjdC5rZXlzKG9iai5jYWxsKTsNCiAgICAgICAgaWYgKGNoZWNrSUQgIT09IG9iaikgew0KICAgICAgICAgICAgZm9yICh2YXIgaSA9IDA7IGkgPCBjYWxscy5sZW5ndGg7IGkrKykgew0KICAgICAgICAgICAgICAgIHZhciBhID0gY2FsbHNbaV0uc2xpY2UoMSk7DQogICAgICAgICAgICAgICAgdmFyIGIgPSBvYmouY2FsbFtjYWxsc1tpXV07DQogICAgICAgICAgICAgICAgdmFyIGMgPSBiLnRvZ3R5cGU7DQogICAgICAgICAgICAgICAgZG9jdW1lbnQuZ2V0RWxlbWVudEJ5SWQoYSkuc3R5bGUuZGlzcGxheSA9IHNob3c7DQogICAgICAgICAgICAgICAgaWYgKGIucmVsYWZyb20gJiYgIWMpIHsNCiAgICAgICAgICAgICAgICAgICAgaWYgKGIucmVsYWZyb20uZGlzcGxheSAhPT0gc2hvdykgew0KICAgICAgICAgICAgICAgICAgICAgICAgdmFyIHJlbGFmcm9tcyA9IE9iamVjdC5rZXlzKGIucmVsYWZyb20pOw0KICAgICAgICAgICAgICAgICAgICAgICAgcmVsYWZyb21zLnNwbGljZShyZWxhZnJvbXMuaW5kZXhPZignZGlzcGxheScpLCAxKTsNCiAgICAgICAgICAgICAgICAgICAgICAgIGZvciAodmFyIGsgPSAwOyBrIDwgcmVsYWZyb21zLmxlbmd0aDsgaysrKSB7DQogICAgICAgICAgICAgICAgICAgICAgICAgICAgdmFyIGQgPSByZWxhZnJvbXNba107DQogICAgICAgICAgICAgICAgICAgICAgICAgICAgZXh0cmFSZWxhW2RdLmlzQyA9IHRydWU7DQogICAgICAgICAgICAgICAgICAgICAgICB9DQogICAgICAgICAgICAgICAgICAgICAgICBiLnJlbGFmcm9tLmRpc3BsYXkgPSBzaG93Ow0KICAgICAgICAgICAgICAgICAgICB9DQogICAgICAgICAgICAgICAgfQ0KICAgICAgICAgICAgICAgIGlmIChiLnJlbGF0byAmJiAhYykgew0KICAgICAgICAgICAgICAgICAgICBpZiAoYi5yZWxhdG8uZGlzcGxheSAhPT0gc2hvdykgew0KICAgICAgICAgICAgICAgICAgICAgICAgdmFyIHJlbGF0b3MgPSBPYmplY3Qua2V5cyhiLnJlbGF0byk7DQogICAgICAgICAgICAgICAgICAgICAgICByZWxhdG9zLnNwbGljZShyZWxhdG9zLmluZGV4T2YoJ2Rpc3BsYXknKSwgMSk7DQogICAgICAgICAgICAgICAgICAgICAgICBmb3IgKHZhciBrID0gMDsgayA8IHJlbGF0b3MubGVuZ3RoOyBrKyspIHsNCiAgICAgICAgICAgICAgICAgICAgICAgICAgICB2YXIgZCA9IHJlbGF0b3Nba107DQogICAgICAgICAgICAgICAgICAgICAgICAgICAgZXh0cmFSZWxhW2RdLmlzQyA9IHRydWU7DQogICAgICAgICAgICAgICAgICAgICAgICB9DQogICAgICAgICAgICAgICAgICAgICAgICBiLnJlbGF0by5kaXNwbGF5ID0gc2hvdzsNCiAgICAgICAgICAgICAgICAgICAgfQ0KICAgICAgICAgICAgICAgIH0NCiAgICAgICAgICAgICAgICBpZiAoYykgew0KICAgICAgICAgICAgICAgICAgICBkb2N1bWVudC5xdWVyeVNlbGVjdG9yKCJnW2VkXFw6dG9ndG9waWNpZD0nIiArIGEgKyAiJ10iKS5zdHlsZS5kaXNwbGF5ID0gc2hvdzsNCiAgICAgICAgICAgICAgICAgICAgaWYgKGMgPT09ICdtaW51cycpIHsNCiAgICAgICAgICAgICAgICAgICAgICAgIHV0ZChiLCBhLCBzaG93KQ0KICAgICAgICAgICAgICAgICAgICB9DQogICAgICAgICAgICAgICAgICAgIGlmICgoYi5jYWxsIHx8IGIuYm91bmRhcnkgfHwgYi5zdW1tYXJ5KSAmJiBjID09PSAncGx1cycpIHsNCiAgICAgICAgICAgICAgICAgICAgICAgIHV0ZChiLCBhLCBzaG93LCB0cnVlKQ0KICAgICAgICAgICAgICAgICAgICB9DQogICAgICAgICAgICAgICAgfQ0KICAgICAgICAgICAgICAgIGlmIChiLmNhbGwgJiYgIWMpIHsNCiAgICAgICAgICAgICAgICAgICAgdXRkKGIsIGEsIHNob3csIHRydWUpDQogICAgICAgICAgICAgICAgfQ0KICAgICAgICAgICAgICAgIGlmIChiLnN1bW1hcnkgJiYgIWMpIHsNCiAgICAgICAgICAgICAgICAgICAgdXRkKGIsIGEsIHNob3cpDQogICAgICAgICAgICAgICAgfQ0KICAgICAgICAgICAgICAgIGlmIChiLmJvdW5kYXJ5ICYmICFjKSB7DQogICAgICAgICAgICAgICAgICAgIHV0ZChiLCBhLCBzaG93KQ0KICAgICAgICAgICAgICAgIH0NCg0KICAgICAgICAgICAgfQ0KICAgICAgICB9DQogICAgfQ0KICAgIGlmIChvYmouc3VtbWFyeSkgew0KICAgICAgICB2YXIgc3VtbWFyeXMgPSBPYmplY3Qua2V5cyhvYmouc3VtbWFyeSk7DQogICAgICAgIGlmICgoY2hlY2tJRCAhPT0gb2JqICYmIChvYmoudG9ndHlwZSA9PT0gJ21pbnVzJyB8fCAhb2JqLnRvZ3R5cGUpKSB8fCBjaGVja0lEID09PSBvYmopIHsNCiAgICAgICAgICAgIGZvciAodmFyIGkgPSAwOyBpIDwgc3VtbWFyeXMubGVuZ3RoOyBpKyspIHsNCiAgICAgICAgICAgICAgICB2YXIgYSA9IHN1bW1hcnlzW2ldLnNsaWNlKDEpOw0KICAgICAgICAgICAgICAgIHZhciBvc3AgPSBkb2N1bWVudC5nZXRFbGVtZW50QnlJZChhKS5nZXRBdHRyaWJ1dGUoJ2VkOnBhcmVudGlkJyk7DQogICAgICAgICAgICAgICAgaWYgKG9zcC5tYXRjaCgvXCwvKSkgew0KICAgICAgICAgICAgICAgICAgICB2YXIgb3NwYSA9IG9zcC5zcGxpdCgnLCcpOw0KICAgICAgICAgICAgICAgICAgICB2YXIgb3NwTCA9IDA7DQoNCiAgICAgICAgICAgICAgICAgICAgZm9yICh2YXIgaiA9IDA7IGogPCBvc3BhLmxlbmd0aDsgaisrKSB7DQogICAgICAgICAgICAgICAgICAgICAgICBpZiAoc2hvdyA9PSAnbm9uZScpIHsNCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBpZiAoZG9jdW1lbnQuZ2V0RWxlbWVudEJ5SWQob3NwYVtqXSkuc3R5bGUuZGlzcGxheSAhPSAnbm9uZScpIHsNCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgYnJlYWs7DQogICAgICAgICAgICAgICAgICAgICAgICAgICAgfSBlbHNlIHsNCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgb3NwTCsrOw0KICAgICAgICAgICAgICAgICAgICAgICAgICAgIH0NCiAgICAgICAgICAgICAgICAgICAgICAgIH0gZWxzZSB7DQogICAgICAgICAgICAgICAgICAgICAgICAgICAgaWYgKGRvY3VtZW50LmdldEVsZW1lbnRCeUlkKGEpLnN0eWxlLmRpc3BsYXkgIT0gJ25vbmUnKSB7DQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGJyZWFrOw0KICAgICAgICAgICAgICAgICAgICAgICAgICAgIH0gZWxzZSB7DQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIG9zcEwrKzsNCiAgICAgICAgICAgICAgICAgICAgICAgICAgICB9DQogICAgICAgICAgICAgICAgICAgICAgICB9DQoNCiAgICAgICAgICAgICAgICAgICAgfQ0KICAgICAgICAgICAgICAgICAgICBpZiAob3NwTCAhPT0gb3NwYS5sZW5ndGgpIHsNCiAgICAgICAgICAgICAgICAgICAgICAgIGNvbnRpbnVlOw0KICAgICAgICAgICAgICAgICAgICB9DQogICAgICAgICAgICAgICAgfQ0KICAgICAgICAgICAgICAgIHZhciBiID0gb2JqLnN1bW1hcnlbc3VtbWFyeXNbaV1dOw0KICAgICAgICAgICAgICAgIC8vIGNvbnNvbGUubG9nKGEpOw0KICAgICAgICAgICAgICAgIGRvY3VtZW50LmdldEVsZW1lbnRCeUlkKGEpLnN0eWxlLmRpc3BsYXkgPSBzaG93Ow0KICAgICAgICAgICAgICAgIC8vICAgICAgICAgICAgICAgIGlmKGMpew0KICAgICAgICAgICAgICAgIC8vICAgICAgICAgICAgICAgICAgICBkb2N1bWVudC5xdWVyeVNlbGVjdG9yKCJnW2VkXFw6dG9ndG9waWNpZD0nIithKyInXSIpLnN0eWxlLmRpc3BsYXk9c2hvdzsNCiAgICAgICAgICAgICAgICAvLyAgICAgICAgICAgICAgICAgICAgaWYoYz09PSdtaW51cycpew0KICAgICAgICAgICAgICAgIC8vICAgICAgICAgICAgICAgICAgICAgICAgdXRkKGIsc2hvdykNCiAgICAgICAgICAgICAgICAvLyAgICAgICAgICAgICAgICAgICAgfQ0KICAgICAgICAgICAgICAgIC8vICAgICAgICAgICAgICAgICAgICBpZiAoYi5jYWxsJiZjPT09J3BsdXMnKSB7DQogICAgICAgICAgICAgICAgLy8gICAgICAgICAgICAgICAgICAgICAgICB1dGQoYixzaG93LHRydWUpDQogICAgICAgICAgICAgICAgLy8gICAgICAgICAgICAgICAgICAgIH0NCiAgICAgICAgICAgICAgICAvLyAgICAgICAgICAgICAgICB9DQogICAgICAgICAgICAgICAgLy8gICAgICAgICAgICAgICAgaWYoYi5jYWxsJiYhYykgew0KICAgICAgICAgICAgICAgIC8vICAgICAgICAgICAgICAgICAgICB1dGQoYixzaG93LHRydWUpDQogICAgICAgICAgICAgICAgLy8gICAgICAgICAgICAgICAgfQ0KICAgICAgICAgICAgICAgIGlmIChPYmplY3Qua2V5cyhiKS5sZW5ndGggIT09IDApIHsNCiAgICAgICAgICAgICAgICAgICAgdXRkKGIsIGEsIHNob3cpDQogICAgICAgICAgICAgICAgfQ0KICAgICAgICAgICAgfQ0KICAgICAgICB9DQogICAgfQ0KICAgIGlmIChvYmouYm91bmRhcnkpIHsNCiAgICAgICAgdmFyIGJvdW5kYXJ5cyA9IE9iamVjdC5rZXlzKG9iai5ib3VuZGFyeSk7DQogICAgICAgIGlmIChjaGVja0lEICE9PSBvYmopIHsNCiAgICAgICAgICAgIGZvciAodmFyIGkgPSAwOyBpIDwgYm91bmRhcnlzLmxlbmd0aDsgaSsrKSB7DQogICAgICAgICAgICAgICAgdmFyIGEgPSBib3VuZGFyeXNbaV0uc2xpY2UoMSk7DQogICAgICAgICAgICAgICAgdmFyIGIgPSBvYmouYm91bmRhcnlbYm91bmRhcnlzW2ldXTsNCiAgICAgICAgICAgICAgICAvLyBjb25zb2xlLmxvZyhhKTsNCiAgICAgICAgICAgICAgICBkb2N1bWVudC5nZXRFbGVtZW50QnlJZChhKS5zdHlsZS5kaXNwbGF5ID0gc2hvdzsNCiAgICAgICAgICAgICAgICAvLyAgICAgICAgICAgICAgICBpZihjKXsNCiAgICAgICAgICAgICAgICAvLyAgICAgICAgICAgICAgICAgICAgZG9jdW1lbnQucXVlcnlTZWxlY3RvcigiZ1tlZFxcOnRvZ3RvcGljaWQ9JyIrYSsiJ10iKS5zdHlsZS5kaXNwbGF5PXNob3c7DQogICAgICAgICAgICAgICAgLy8gICAgICAgICAgICAgICAgICAgIGlmKGM9PT0nbWludXMnKXsNCiAgICAgICAgICAgICAgICAvLyAgICAgICAgICAgICAgICAgICAgICAgIHV0ZChiLHNob3cpDQogICAgICAgICAgICAgICAgLy8gICAgICAgICAgICAgICAgICAgIH0NCiAgICAgICAgICAgICAgICAvLyAgICAgICAgICAgICAgICAgICAgaWYgKGIuY2FsbCYmYz09PSdwbHVzJykgew0KICAgICAgICAgICAgICAgIC8vICAgICAgICAgICAgICAgICAgICAgICAgdXRkKGIsc2hvdyx0cnVlKQ0KICAgICAgICAgICAgICAgIC8vICAgICAgICAgICAgICAgICAgICB9DQogICAgICAgICAgICAgICAgLy8gICAgICAgICAgICAgICAgfQ0KICAgICAgICAgICAgICAgIC8vICAgICAgICAgICAgICAgIGlmKGIuY2FsbCYmIWMpIHsNCiAgICAgICAgICAgICAgICAvLyAgICAgICAgICAgICAgICAgICAgdXRkKGIsc2hvdyx0cnVlKQ0KICAgICAgICAgICAgICAgIC8vICAgICAgICAgICAgICAgIH0NCiAgICAgICAgICAgICAgICBpZiAoT2JqZWN0LmtleXMoYikubGVuZ3RoICE9PSAwKSB7DQogICAgICAgICAgICAgICAgICAgIHV0ZChiLCBhLCBzaG93KQ0KICAgICAgICAgICAgICAgIH0NCiAgICAgICAgICAgIH0NCiAgICAgICAgfQ0KICAgIH0NCiAgICBpZiAoIW9jICYmIG9iai5jaGlsZCkgew0KICAgICAgICB2YXIgY2hpbGRzID0gT2JqZWN0LmtleXMob2JqLmNoaWxkKTsNCiAgICAgICAgZm9yICh2YXIgaSA9IDA7IGkgPCBjaGlsZHMubGVuZ3RoOyBpKyspIHsNCiAgICAgICAgICAgIHZhciBhID0gY2hpbGRzW2ldLnNsaWNlKDEpOw0KICAgICAgICAgICAgdmFyIGIgPSBvYmouY2hpbGRbY2hpbGRzW2ldXTsNCiAgICAgICAgICAgIHZhciBjID0gYi50b2d0eXBlOw0KICAgICAgICAgICAgZG9jdW1lbnQuZ2V0RWxlbWVudEJ5SWQoYSkuc3R5bGUuZGlzcGxheSA9IHNob3c7DQogICAgICAgICAgICB2YXIgdFNQYXRoID0gZG9jdW1lbnQucXVlcnlTZWxlY3RvcigicGF0aFtlZFxcOnRvc3VwZXJpZD0nIiArIGEgKyAiJ10iKTsNCiAgICAgICAgICAgIGlmICh0U1BhdGgpIHsNCiAgICAgICAgICAgICAgICB0U1BhdGguc3R5bGUuZGlzcGxheSA9IHNob3c7DQogICAgICAgICAgICB9DQogICAgICAgICAgICB2YXIgbm90ZVRpcCA9IGRvY3VtZW50LnF1ZXJ5U2VsZWN0b3IoImdbZWRcXDpub3RldG89JyIgKyBhICsgIiddIik7DQogICAgICAgICAgICBpZiAobm90ZVRpcCkgew0KICAgICAgICAgICAgICAgIG5vdGVUaXAuc3R5bGUuZGlzcGxheSA9IHNob3c7DQogICAgICAgICAgICB9DQogICAgICAgICAgICBpZiAoYi5yZWxhZnJvbSAmJiAhYykgew0KICAgICAgICAgICAgICAgIGlmIChiLnJlbGFmcm9tLmRpc3BsYXkgIT09IHNob3cpIHsNCiAgICAgICAgICAgICAgICAgICAgdmFyIHJlbGFmcm9tcyA9IE9iamVjdC5rZXlzKGIucmVsYWZyb20pOw0KICAgICAgICAgICAgICAgICAgICByZWxhZnJvbXMuc3BsaWNlKHJlbGFmcm9tcy5pbmRleE9mKCdkaXNwbGF5JyksIDEpOw0KICAgICAgICAgICAgICAgICAgICBmb3IgKHZhciBrID0gMDsgayA8IHJlbGFmcm9tcy5sZW5ndGg7IGsrKykgew0KICAgICAgICAgICAgICAgICAgICAgICAgdmFyIGQgPSByZWxhZnJvbXNba107DQogICAgICAgICAgICAgICAgICAgICAgICBleHRyYVJlbGFbZF0uaXNDID0gdHJ1ZTsNCiAgICAgICAgICAgICAgICAgICAgfQ0KICAgICAgICAgICAgICAgICAgICBiLnJlbGFmcm9tLmRpc3BsYXkgPSBzaG93Ow0KICAgICAgICAgICAgICAgIH0NCiAgICAgICAgICAgIH0NCiAgICAgICAgICAgIGlmIChiLnJlbGF0byAmJiAhYykgew0KICAgICAgICAgICAgICAgIGlmIChiLnJlbGF0by5kaXNwbGF5ICE9PSBzaG93KSB7DQogICAgICAgICAgICAgICAgICAgIHZhciByZWxhdG9zID0gT2JqZWN0LmtleXMoYi5yZWxhdG8pOw0KICAgICAgICAgICAgICAgICAgICByZWxhdG9zLnNwbGljZShyZWxhdG9zLmluZGV4T2YoJ2Rpc3BsYXknKSwgMSk7DQogICAgICAgICAgICAgICAgICAgIGZvciAodmFyIGsgPSAwOyBrIDwgcmVsYXRvcy5sZW5ndGg7IGsrKykgew0KICAgICAgICAgICAgICAgICAgICAgICAgdmFyIGQgPSByZWxhdG9zW2tdOw0KICAgICAgICAgICAgICAgICAgICAgICAgZXh0cmFSZWxhW2RdLmlzQyA9IHRydWU7DQogICAgICAgICAgICAgICAgICAgIH0NCiAgICAgICAgICAgICAgICAgICAgYi5yZWxhdG8uZGlzcGxheSA9IHNob3c7DQogICAgICAgICAgICAgICAgfQ0KICAgICAgICAgICAgfQ0KICAgICAgICAgICAgaWYgKGMpIHsNCiAgICAgICAgICAgICAgICBkb2N1bWVudC5xdWVyeVNlbGVjdG9yKCJnW2VkXFw6dG9ndG9waWNpZD0nIiArIGEgKyAiJ10iKS5zdHlsZS5kaXNwbGF5ID0gc2hvdzsNCiAgICAgICAgICAgICAgICBpZiAoYyA9PT0gJ21pbnVzJykgew0KICAgICAgICAgICAgICAgICAgICB1dGQoYiwgYSwgc2hvdykNCiAgICAgICAgICAgICAgICB9DQogICAgICAgICAgICAgICAgaWYgKChiLmNhbGwgfHwgYi5ib3VuZGFyeSB8fCBiLnN1bW1hcnkpICYmIGMgPT09ICdwbHVzJykgew0KICAgICAgICAgICAgICAgICAgICB1dGQoYiwgYSwgc2hvdywgdHJ1ZSkNCiAgICAgICAgICAgICAgICB9DQogICAgICAgICAgICB9DQogICAgICAgICAgICBpZiAoYi5jYWxsICYmICFjKSB7DQogICAgICAgICAgICAgICAgdXRkKGIsIGEsIHNob3csIHRydWUpDQogICAgICAgICAgICB9DQogICAgICAgICAgICBpZiAoYi5zdW1tYXJ5ICYmICFjKSB7DQogICAgICAgICAgICAgICAgdXRkKGIsIGEsIHNob3cpDQogICAgICAgICAgICB9DQogICAgICAgICAgICBpZiAoYi5ib3VuZGFyeSAmJiAhYykgew0KICAgICAgICAgICAgICAgIHV0ZChiLCBhLCBzaG93KQ0KICAgICAgICAgICAgfQ0KICAgICAgICB9DQogICAgfQ0KfQ0KDQpmdW5jdGlvbiBleHRyYVJlbGFGaW4oKSB7DQogICAgdmFyIGV4dHJha2V5cyA9IE9iamVjdC5rZXlzKGV4dHJhUmVsYSk7DQogICAgZm9yICh2YXIgaSA9IDA7IGkgPCBleHRyYWtleXMubGVuZ3RoOyBpKyspIHsNCiAgICAgICAgdmFyIGV4dHJhT2JqID0gZXh0cmFSZWxhW2V4dHJha2V5c1tpXV07DQogICAgICAgIGlmIChleHRyYU9iai5pc0MgPT09IHRydWUpIHsNCiAgICAgICAgICAgIHZhciBmc2hvdyA9IGRvY3VtZW50LmdldEVsZW1lbnRCeUlkKGV4dHJhT2JqLmZyb21pZCkuc3R5bGUuZGlzcGxheSAhPT0gJ25vbmUnID8gdHJ1ZSA6IGZhbHNlOw0KICAgICAgICAgICAgdmFyIHRzaG93ID0gZG9jdW1lbnQuZ2V0RWxlbWVudEJ5SWQoZXh0cmFPYmoudG9pZCkuc3R5bGUuZGlzcGxheSAhPT0gJ25vbmUnID8gdHJ1ZSA6IGZhbHNlOw0KICAgICAgICAgICAgZG9jdW1lbnQuZ2V0RWxlbWVudEJ5SWQoZXh0cmFPYmouaWQpLnN0eWxlLmRpc3BsYXkgPSBmc2hvdyAmJiB0c2hvdyA/ICdibG9jaycgOiAnbm9uZSc7DQogICAgICAgICAgICBleHRyYVJlbGFbZXh0cmFrZXlzW2ldXS5pc0MgPSBmYWxzZTsNCiAgICAgICAgfQ0KICAgIH0NCn0='))</script>
+  </body>
+</html>
