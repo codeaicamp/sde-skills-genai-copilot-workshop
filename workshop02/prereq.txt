@@ -1,0 +1,3 @@
+- Bring a laptop or pair with someone to participate in hands-on labs
+- Ensure Web Access to ChatGPT & Gemini
+- Setup VS Code IDE (https://code.visualstudio.com/) with these 2 IDE extensions installed: 1. SourceGraph Cody Free plan (https://sourcegraph.com/cody) 2. Codium Free plan (https://www.codium.ai/install/vs-code/) and 3. Github Copilot (30 Day Free trial available)
